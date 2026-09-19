@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Applications | Anna University Placement Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <div id="navbar-container"></div>
+
+  <main class="main-content" data-testid="my-applications">
+    <div style="margin-bottom: 2rem;">
+      <div class="hero-tag">Student Placement Records</div>
+      <h1 style="font-size: 2rem; font-weight: 800; color: #fff; margin-bottom: 0.5rem;">
+        My Submitted Applications
+      </h1>
+      <p style="color: var(--text-secondary); max-width: 750px;">
+        Track real-time selection rounds, test schedules, and candidate status for all campus placement drives applied through the CUIC portal.
+      </p>
+    </div>
+
+    <!-- Summary Count Bar -->
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.5rem;">
+      <div class="stat-card" style="padding: 1rem 1.25rem; min-width: 180px;">
+        <span style="font-size: 0.78rem; color: var(--text-muted);">Total Applications</span>
+        <span id="app-total-count" style="font-size: 1.6rem; font-weight: 800; color: #fff;">0</span>
+      </div>
+      <div class="stat-card" style="padding: 1rem 1.25rem; min-width: 180px;">
+        <span style="font-size: 0.78rem; color: var(--text-muted);">Active In Review</span>
+        <span id="app-active-count" style="font-size: 1.6rem; font-weight: 800; color: #60a5fa;">0</span>
+      </div>
+      <div class="stat-card" style="padding: 1rem 1.25rem; min-width: 180px;">
+        <span style="font-size: 0.78rem; color: var(--text-muted);">Shortlisted / Selected</span>
+        <span id="app-success-count" style="font-size: 1.6rem; font-weight: 800; color: #10b981;">0</span>
+      </div>
+    </div>
+
+    <!-- Applications Table -->
+    <div class="data-table-wrapper">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Application ID</th>
+            <th>Company Name</th>
+            <th>Role Title</th>
+            <th>Submission Date</th>
+            <th>Preferred Location</th>
+            <th>Status</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="applications-table-body">
+          <tr>
+            <td colspan="7" style="text-align: center; color: var(--text-muted); padding: 2rem;">
+              Loading applications...
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Empty State -->
+    <div id="no-applications-view" style="display: none; padding: 4rem 2rem; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); text-align: center; margin-top: 1rem;">
+      <div style="font-size: 3rem; margin-bottom: 1rem;">📋</div>
+      <h2 style="font-size: 1.4rem; font-weight: 800; color: #fff; margin-bottom: 0.5rem;">No Applications Yet</h2>
+      <p style="color: var(--text-secondary); max-width: 480px; margin: 0 auto 1.5rem;">
+        You haven't submitted applications to any campus drives yet. Check your eligible drives to discover open engineering positions.
+      </p>
+      <a href="/jobs" class="btn btn-primary" data-testid="jobs-link">Browse Open Drives</a>
+    </div>
+  </main>
+
+  <div id="footer-container"></div>
+
+  <script src="/js/api.js"></script>
+  <script>
+    API.renderNavbar('applications');
+    API.renderFooter();
+
+    const student = API.getCurrentUser();
+
+    async function loadApplications() {
+      if (!student) {
+        window.location.href = '/login';
+        return;
+      }
+
+      try {
+        const apps = await API.getApplications(student.id);
+        API.logAction('VIEW_APPLICATIONS', null, 'SUCCESS', `Viewed ${apps.length} application records`);
+
+        document.getElementById('app-total-count').textContent = apps.length;
+        document.getElementById('app-active-count').textContent = apps.filter(a => a.status === 'APPLIED').length;
+        document.getElementById('app-success-count').textContent = apps.filter(a => a.status === 'SHORTLISTED' || a.status === 'SELECTED').length;
+
+        const tbody = document.getElementById('applications-table-body');
+        const emptyView = document.getElementById('no-applications-view');
+
+        if (apps.length === 0) {
+          tbody.parentElement.parentElement.style.display = 'none';
+          emptyView.style.display = 'block';
+          return;
+        }
+
+        tbody.innerHTML = apps.map(app => {
+          let statusBadgeClass = 'badge-applied';
+          if (app.status === 'SHORTLISTED' || app.status === 'SELECTED') statusBadgeClass = 'badge-eligible';
+          if (app.status === 'REJECTED') statusBadgeClass = 'badge-ineligible';
+
+          return `
+            <tr data-testid="application-${app.jobId}">
+              <td class="mono" style="font-weight: 700; color: var(--gold-400);">${app.id}</td>
+              <td style="font-weight: 700; color: #fff;">${app.company}</td>
+              <td>${app.jobTitle}</td>
+              <td style="color: var(--text-secondary);">${new Date(app.appliedAt).toLocaleString('en-IN')}</td>
+              <td style="color: var(--text-secondary);">${app.preferredLocation || 'Chennai'}</td>
+              <td>
+                <span class="badge ${statusBadgeClass}">${app.status}</span>
+              </td>
+              <td>
+                <a href="/jobs/${app.jobId}" class="btn btn-secondary btn-sm" data-testid="view-jd-${app.jobId}">
+                  View JD
+                </a>
+              </td>
+            </tr>
+          `;
+        }).join('');
+
+      } catch (err) {
+        console.error('Failed to load applications:', err);
+      }
+    }
+
+    loadApplications();
+  </script>
+</body>
+</html>

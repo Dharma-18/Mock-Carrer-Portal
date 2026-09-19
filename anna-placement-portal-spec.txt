@@ -1,0 +1,930 @@
+ANNA UNIVERSITY SIMULATED CAMPUS RECRUITMENT PORTAL
+====================================================
+
+PROJECT PURPOSE
+---------------
+Build a realistic simulated campus placement / career portal for engineering
+students. The portal is intended primarily as a controlled environment for
+testing an AI agent that uses Playwright/browser automation to discover job
+descriptions, determine eligibility, and apply for campus recruitment drives.
+
+IMPORTANT:
+- This is a simulation and is NOT an official Anna University portal.
+- Use fictional companies, fictional student data, and fictional drives.
+- The UI should look like a professional university placement portal.
+- The application must be deterministic enough for automated Playwright testing.
+- The portal must support adding new job descriptions without changing frontend code.
+
+
+1. TARGET STUDENTS
+------------------
+Support at least these engineering branches:
+
+1. Computer Science and Engineering (CSE)
+2. Information Technology (IT)
+3. Electronics and Communication Engineering (ECE)
+4. Electrical and Electronics Engineering (EEE)
+5. Manufacturing Engineering
+
+Academic years:
+- Pre-Final Year
+- Final Year
+
+Use realistic but fictional Anna University-style academic information.
+
+Example student:
+Student ID: AU2027CSE001
+Name: Arjun Kumar
+Degree: B.E.
+Branch: Computer Science and Engineering
+Year: Final Year
+CGPA: 8.36
+Backlogs: 0
+Graduation Year: 2027
+Skills: C++, Python, Java, SQL, React, Node.js, Git
+Internships: 1
+
+
+2. MAIN USER ROLES
+------------------
+STUDENT
+- View profile
+- View eligible placement drives
+- Search and filter jobs
+- Open complete JD
+- Check eligibility
+- Apply to a drive
+- View application status
+- View application history
+
+PLACEMENT ADMIN
+- Create a new placement drive
+- Edit a drive
+- Publish/unpublish a drive
+- Set eligibility criteria
+- Set application deadline
+- View applications
+- Change application status
+
+The AI agent should primarily operate as a STUDENT.
+
+
+3. REQUIRED PAGES
+-----------------
+
+A. LOGIN PAGE
+Route:
+    /login
+
+Fields:
+- Student ID
+- Password
+
+Provide demo credentials on the page.
+
+Example:
+Student ID: AU2027CSE001
+Password: student123
+
+After login:
+    /dashboard
+
+Use stable selectors:
+    data-testid="student-id"
+    data-testid="password"
+    data-testid="login-button"
+
+
+B. STUDENT DASHBOARD
+Route:
+    /dashboard
+
+Display:
+- Student name
+- Student ID
+- Branch
+- Academic year
+- CGPA
+- Backlogs
+- Graduation year
+- Number of available drives
+- Number of applications
+- Number of eligible drives
+
+Sections:
+- Recommended / Eligible Drives
+- All Drives
+- My Applications
+- Profile
+
+
+C. JOB / PLACEMENT DRIVE LIST
+Route:
+    /jobs
+
+Each job card must display:
+- Company name
+- Job title
+- Job ID
+- Eligible branches
+- Eligible academic years
+- Minimum CGPA
+- Maximum allowed backlogs
+- Location
+- Work mode
+- Package / CTC
+- Application deadline
+- Drive status
+- View JD button
+- Apply button when applicable
+
+Every job card must have:
+    data-testid="job-card-<JOB_ID>"
+
+Buttons:
+    data-testid="view-jd-<JOB_ID>"
+    data-testid="apply-<JOB_ID>"
+
+
+D. JOB DESCRIPTION PAGE
+Route:
+    /jobs/<JOB_ID>
+
+This page is VERY IMPORTANT because the AI agent will fetch JDs
+through Playwright.
+
+Display structured information:
+
+JOB INFORMATION
+- Company
+- Job ID
+- Role
+- Department / Function
+- Employment type
+- Location
+- Work mode
+- CTC
+- Joining date
+- Application deadline
+
+ELIGIBILITY
+- Degree
+- Branches
+- Academic year
+- Minimum CGPA
+- Maximum backlogs
+- Required 10th percentage if applicable
+- Required 12th / Diploma percentage if applicable
+- Gap restrictions if applicable
+
+SKILLS
+- Required skills
+- Preferred skills
+- Programming languages
+- Tools / technologies
+
+JOB DESCRIPTION
+- Responsibilities
+- Day-to-day work
+- Required qualifications
+- Preferred qualifications
+
+SELECTION PROCESS
+Example:
+1. Resume Screening
+2. Aptitude Test
+3. Technical Assessment
+4. Technical Interview
+5. HR Interview
+
+OTHER
+- Bond
+- Relocation requirement
+- Internship-to-full-time option
+- Salary details
+- Benefits
+
+Provide a clearly visible eligibility result:
+    ELIGIBLE
+or
+    NOT ELIGIBLE
+
+Also show WHY.
+
+Example:
+"Eligible: CSE is accepted, final year is accepted, CGPA 8.36 >= 7.50,
+and backlogs 0 <= 0."
+
+The eligibility calculation should be deterministic and server-side.
+
+
+4. INITIAL JOB DATA
+-------------------
+
+Create at least 15 fictional drives distributed across branches.
+
+CSE / IT:
+1. TechNova Systems
+   Role: Software Engineer
+   Branches: CSE, IT
+   Year: Final Year
+   CGPA: 7.5
+   Backlogs: 0
+   CTC: 9.5 LPA
+
+2. CloudMatrix Labs
+   Role: Backend Developer
+   Branches: CSE, IT
+   Year: Final Year
+   CGPA: 8.0
+   Backlogs: 0
+   CTC: 10 LPA
+
+3. DataForge Analytics
+   Role: Data Analyst
+   Branches: CSE, IT
+   Year: Final / Pre-Final
+   CGPA: 7.0
+   Backlogs: 1
+   CTC: 7.2 LPA
+
+4. AppVertex Technologies
+   Role: Full Stack Developer
+   Branches: CSE, IT
+   Year: Final Year
+   CGPA: 7.5
+   Backlogs: 0
+   CTC: 8 LPA
+
+ECE:
+5. SignalCore Technologies
+   Role: Embedded Systems Engineer
+   Branches: ECE
+   Year: Final Year
+   CGPA: 7.0
+   Backlogs: 0
+   CTC: 7.5 LPA
+
+6. WaveLink Semiconductors
+   Role: VLSI Design Engineer
+   Branches: ECE
+   Year: Final Year
+   CGPA: 8.0
+   Backlogs: 0
+   CTC: 11 LPA
+
+7. IoTWorks India
+   Role: IoT Engineer
+   Branches: ECE, EEE
+   Year: Final / Pre-Final
+   CGPA: 7.0
+   Backlogs: 1
+   CTC: 6.8 LPA
+
+EEE:
+8. PowerGrid Innovations
+   Role: Electrical Design Engineer
+   Branches: EEE
+   Year: Final Year
+   CGPA: 7.0
+   Backlogs: 0
+   CTC: 7 LPA
+
+9. VoltEdge Energy
+   Role: Power Electronics Engineer
+   Branches: EEE, ECE
+   Year: Final Year
+   CGPA: 7.5
+   Backlogs: 0
+   CTC: 8.5 LPA
+
+10. Electra Automation
+    Role: Automation Engineer
+    Branches: EEE, ECE
+    Year: Final / Pre-Final
+    CGPA: 6.5
+    Backlogs: 1
+    CTC: 6.5 LPA
+
+Manufacturing:
+11. AeroFab Engineering
+    Role: Manufacturing Engineer
+    Branches: Manufacturing
+    Year: Final Year
+    CGPA: 7.0
+    Backlogs: 0
+    CTC: 6.8 LPA
+
+12. PrecisionWorks
+    Role: Production Engineer
+    Branches: Manufacturing
+    Year: Final Year
+    CGPA: 6.5
+    Backlogs: 1
+    CTC: 6.2 LPA
+
+13. AutoMech Systems
+    Role: CAD / Manufacturing Engineer
+    Branches: Manufacturing
+    Year: Final / Pre-Final
+    CGPA: 7.0
+    Backlogs: 0
+    CTC: 7.5 LPA
+
+Cross-disciplinary:
+14. RoboMotion Labs
+    Role: Robotics Engineer
+    Branches: CSE, ECE, EEE, Manufacturing
+    Year: Final Year
+    CGPA: 7.5
+    Backlogs: 0
+    CTC: 9 LPA
+
+15. IndustryNext Technologies
+    Role: Industrial AI Engineer
+    Branches: CSE, IT, ECE, EEE, Manufacturing
+    Year: Final Year
+    CGPA: 8.0
+    Backlogs: 0
+    CTC: 10.5 LPA
+
+All companies and drives are fictional.
+
+
+5. JOB DATA MODEL
+-----------------
+
+Each job should have a structure similar to:
+
+{
+  "id": "DRV001",
+  "company": "TechNova Systems",
+  "role": "Software Engineer",
+  "description": "...",
+  "branches": ["CSE", "IT"],
+  "academicYears": ["Final Year"],
+  "minCgpa": 7.5,
+  "maxBacklogs": 0,
+  "min10thPercentage": 60,
+  "min12thPercentage": 60,
+  "skills": ["C++", "Python", "SQL", "DSA"],
+  "preferredSkills": ["React", "Node.js"],
+  "location": "Chennai",
+  "workMode": "Hybrid",
+  "ctc": "9.5 LPA",
+  "employmentType": "Full Time",
+  "deadline": "2026-10-10T23:59:00+05:30",
+  "joiningDate": "2027-07-01",
+  "selectionProcess": [
+    "Resume Screening",
+    "Online Assessment",
+    "Technical Interview",
+    "HR Interview"
+  ],
+  "status": "OPEN"
+}
+
+
+6. ELIGIBILITY ENGINE
+---------------------
+
+Eligibility must NOT be determined only by an LLM.
+
+Create a deterministic eligibility function.
+
+Check:
+
+1. Branch
+2. Academic year
+3. CGPA
+4. Backlogs
+5. 10th percentage
+6. 12th / Diploma percentage
+7. Graduation year
+8. Application deadline
+9. Drive status
+10. Previous application restrictions if configured
+
+Return:
+
+{
+  "eligible": true,
+  "reasons": [],
+  "failedCriteria": []
+}
+
+For an ineligible student, give exact reasons.
+
+Example:
+
+{
+  "eligible": false,
+  "failedCriteria": [
+    "Minimum CGPA is 8.00 but student's CGPA is 7.42"
+  ]
+}
+
+
+7. APPLICATION WORKFLOW
+----------------------
+
+The AI agent must be able to complete this through Playwright.
+
+Workflow:
+
+1. Login
+2. Open jobs page
+3. Search for jobs
+4. Read job card
+5. Open JD
+6. Extract eligibility criteria
+7. Compare against student profile
+8. Decide whether application is allowed
+9. Click Apply
+10. Review application form
+11. Confirm application
+12. Verify success
+13. Open My Applications
+14. Verify the application exists
+
+Application form can contain:
+
+- Confirm name
+- Confirm student ID
+- Confirm branch
+- Confirm CGPA
+- Resume selection
+- Preferred location
+- Consent checkbox
+- Final confirmation
+
+Do not allow an application if eligibility is false.
+
+
+8. APPLICATION STATES
+---------------------
+
+Use:
+
+NOT_APPLIED
+ELIGIBLE
+INELIGIBLE
+PENDING_CONFIRMATION
+APPLIED
+WITHDRAWN
+SHORTLISTED
+REJECTED
+SELECTED
+EXPIRED
+
+The agent should be able to distinguish these states.
+
+
+9. PLAYWRIGHT REQUIREMENTS
+--------------------------
+
+The portal is specifically intended for browser automation.
+
+Use stable:
+- IDs
+- labels
+- buttons
+- links
+- data-testid attributes
+
+Avoid selectors based on:
+- random CSS classes
+- visual position
+- generated React IDs
+- changing text where possible
+
+Recommended selectors:
+
+data-testid="login-button"
+data-testid="student-id"
+data-testid="password"
+data-testid="jobs-link"
+data-testid="job-card-DRV001"
+data-testid="view-jd-DRV001"
+data-testid="apply-DRV001"
+data-testid="eligibility-status"
+data-testid="eligibility-reason"
+data-testid="confirm-application"
+data-testid="application-success"
+data-testid="my-applications"
+data-testid="application-DRV001"
+
+
+10. API REQUIREMENTS
+--------------------
+
+Provide REST APIs for deterministic backend operations.
+
+GET
+/api/jobs
+/api/jobs/:id
+/api/students/:id
+/api/students/:id/eligibility/:jobId
+/api/applications
+/api/applications/:id
+
+POST
+/api/login
+/api/applications
+/api/jobs
+
+PATCH
+/api/jobs/:id
+/api/applications/:id/status
+
+The frontend should use these APIs.
+
+
+11. ADMIN JOB CREATION
+----------------------
+
+Admin must be able to add new drives.
+
+Required fields:
+
+- Company
+- Job title
+- Description
+- Branches
+- Academic years
+- Minimum CGPA
+- Maximum backlogs
+- Minimum 10th %
+- Minimum 12th %
+- Skills
+- Preferred skills
+- Location
+- Work mode
+- CTC
+- Employment type
+- Joining date
+- Application deadline
+- Selection process
+
+After publishing, the new JD must immediately appear on the student portal.
+
+This is important because the AI agent should NOT be trained only on fixed JDs.
+
+The agent should be able to encounter previously unseen job descriptions and
+still understand the common structure.
+
+
+12. SEARCH AND FILTERS
+----------------------
+
+Jobs page should support:
+
+Search:
+- company
+- role
+- skill
+- job ID
+
+Filters:
+- branch
+- academic year
+- minimum CTC
+- location
+- work mode
+- eligibility
+- application status
+
+Sort:
+- deadline
+- CTC
+- company
+- newest
+
+
+13. AGENT EVALUATION SCENARIOS
+------------------------------
+
+Create test cases for:
+
+SCENARIO 1:
+Agent finds an eligible CSE drive and applies successfully.
+
+SCENARIO 2:
+Agent finds a drive requiring CGPA 8.5 when student has 8.36.
+Agent must NOT apply.
+
+SCENARIO 3:
+Agent finds a drive that accepts ECE but student is CSE.
+Agent must NOT apply.
+
+SCENARIO 4:
+Agent finds a drive with one allowed backlog and student has one backlog.
+Agent may apply.
+
+SCENARIO 5:
+Agent finds an expired drive.
+Agent must NOT apply.
+
+SCENARIO 6:
+Agent finds a drive for Pre-Final Year only while student is Final Year.
+Agent must NOT apply.
+
+SCENARIO 7:
+Agent finds a cross-disciplinary drive.
+Agent should recognize that the student's branch is accepted.
+
+SCENARIO 8:
+Agent encounters a newly added job with unfamiliar company and role.
+Agent should extract the eligibility criteria from the JD instead of relying
+on memorized company information.
+
+SCENARIO 9:
+Agent attempts to apply twice.
+The second application must be rejected.
+
+SCENARIO 10:
+Agent reaches a confirmation screen.
+It must verify the details before final submission.
+
+SCENARIO 11:
+Job description contains extra natural-language information.
+Agent must identify the actual eligibility constraints.
+
+SCENARIO 12:
+Two jobs have similar roles but different eligibility requirements.
+Agent must evaluate each independently.
+
+
+14. AGENT ACTION LOGGING
+------------------------
+
+Log every agent action.
+
+Example:
+
+{
+  "timestamp": "...",
+  "agent": "placement-agent",
+  "action": "VIEW_JD",
+  "jobId": "DRV001",
+  "result": "SUCCESS"
+}
+
+Possible actions:
+- LOGIN
+- VIEW_JOBS
+- SEARCH
+- FILTER
+- VIEW_JD
+- CHECK_ELIGIBILITY
+- START_APPLICATION
+- SUBMIT_APPLICATION
+- VERIFY_APPLICATION
+- VIEW_APPLICATIONS
+- STOP_INELIGIBLE_APPLICATION
+
+Display an Admin Agent Activity page.
+
+
+15. EVALUATION METRICS
+----------------------
+
+The portal should eventually measure:
+
+1. JD extraction accuracy
+2. Eligibility decision accuracy
+3. Correct application rate
+4. Incorrect application rate
+5. Duplicate application rate
+6. Expired-drive application rate
+7. Successful workflow completion
+8. Number of browser actions
+9. Time to complete task
+10. Whether the agent verifies the final result
+
+Important metric:
+
+SAFE APPLICATION RATE =
+correctly submitted eligible applications /
+all submitted applications
+
+Also track:
+
+UNSAFE APPLICATION RATE =
+applications submitted when eligibility was false.
+
+
+16. DATABASE / STORAGE
+----------------------
+
+For the first version, JSON files are acceptable.
+
+Recommended:
+
+data/
+  students.json
+  jobs.json
+  applications.json
+  activity-log.json
+
+For a larger version, migrate to PostgreSQL.
+
+Database tables:
+
+students
+jobs
+applications
+job_eligibility
+activity_logs
+admins
+
+
+17. UI DESIGN
+-------------
+
+Use a professional university placement portal style.
+
+Suggested navigation:
+
+--------------------------------------------------
+ANNA UNIVERSITY
+Campus Recruitment Portal
+
+Dashboard | Jobs | Applications | Profile
+--------------------------------------------------
+
+Dashboard cards:
+- Eligible Drives
+- Applications
+- Upcoming Deadlines
+- Shortlisted
+
+Jobs page:
+- Search bar
+- Filter sidebar
+- Job cards
+
+JD page:
+- Company / Role header
+- Eligibility panel
+- Description
+- Skills
+- Selection process
+- Apply panel
+
+
+18. SECURITY / SIMULATION RULES
+-------------------------------
+
+This is a demo environment.
+
+Do NOT:
+- collect real passwords
+- collect real personal documents
+- use real company recruitment endpoints
+- submit applications to external websites
+- represent the portal as an official Anna University service
+
+Use clearly fictional/demo credentials and data.
+
+
+19. RECOMMENDED PROJECT STRUCTURE
+---------------------------------
+
+anna-placement-portal/
+
+  server/
+    server.js
+    routes/
+    services/
+    data/
+
+  public/
+    index.html
+    login.html
+    dashboard.html
+    jobs.html
+    job.html
+    applications.html
+    profile.html
+    admin.html
+    css/
+    js/
+
+  data/
+    students.json
+    jobs.json
+    applications.json
+    activity-log.json
+
+  tests/
+    login.spec.js
+    jobs.spec.js
+    eligibility.spec.js
+    application.spec.js
+    agent-scenarios.spec.js
+
+  README.md
+  package.json
+
+
+20. DEFINITION OF DONE
+----------------------
+
+The project is complete when:
+
+[ ] Student can log in.
+[ ] Student profile is available.
+[ ] At least 15 fictional jobs exist.
+[ ] All five engineering branches are represented.
+[ ] Final Year and Pre-Final Year are represented.
+[ ] Jobs have realistic JDs.
+[ ] Jobs contain explicit eligibility criteria.
+[ ] Eligibility is calculated deterministically.
+[ ] Ineligible students cannot apply.
+[ ] Eligible students can apply.
+[ ] Duplicate applications are blocked.
+[ ] Expired drives cannot be applied to.
+[ ] Application history works.
+[ ] Admin can create a new job.
+[ ] Newly created jobs appear without restarting the application.
+[ ] Playwright can navigate every major workflow.
+[ ] Every important element has stable data-testid attributes.
+[ ] Agent activity is logged.
+[ ] API endpoints are available.
+[ ] Application success can be verified through the UI.
+[ ] The system does not depend on external websites.
+[ ] All company and student data are fictional.
+
+
+21. CORE AGENT TASK
+-------------------
+
+The primary benchmark task for the AI agent is:
+
+"Find all campus placement drives for which I am eligible, inspect the job
+descriptions, and apply to the appropriate drives. Do not apply to any drive
+for which I am ineligible. After applying, verify that each application was
+successfully submitted."
+
+The agent should have to:
+- navigate the website
+- inspect information
+- extract structured facts
+- compare facts with the student profile
+- make decisions
+- interact with Playwright
+- submit applications
+- verify outcomes
+
+The agent should NOT receive the eligibility answer directly as its only
+input.
+
+The purpose of this environment is to test whether an AI agent can reliably
+perform a multi-step browser task using live website information.
+
+
+22. EXTENSION IDEAS
+-------------------
+
+Future versions can add:
+
+- Resume upload simulation
+- Aptitude-test scheduling
+- Interview scheduling
+- Company-specific assessment portals
+- Placement officer announcements
+- Notifications
+- Email simulation
+- Calendar integration
+- Multiple student profiles
+- Multiple universities
+- Different degree types
+- B.E / B.Tech / M.E / M.Tech
+- Offer-letter simulation
+- Job withdrawal
+- Application deadline countdown
+- Dynamic JDs
+- Deliberately ambiguous JDs
+- Conflicting information between job card and JD
+- Agent failure recovery
+- Human approval before final application
+- Full Playwright trace recording
+- Agent benchmark dashboard
+- Ground-truth evaluation reports
+
+
+FINAL DESIGN PRINCIPLE
+----------------------
+
+The website should be easy for a human student to use, but sufficiently
+structured and stateful that an AI browser agent must genuinely:
+
+PERCEIVE -> EXTRACT -> REASON -> DECIDE -> ACT -> VERIFY
+
+The backend should remain the ground truth for eligibility and application
+state.
+
+The AI agent should be responsible for navigating the interface, reading the
+job description, understanding the requirements, deciding what to do, using
+Playwright to perform the action, and verifying the result.

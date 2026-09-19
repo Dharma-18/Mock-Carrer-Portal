@@ -1,0 +1,1213 @@
+[
+  {
+    "id": "DRV022",
+    "company": "DynamicRobo_1789817720106",
+    "role": "Quantum Firmware Architect",
+    "department": "Engineering",
+    "description": "Cutting-edge quantum computing driver programming.",
+    "responsibilities": [
+      "Cutting-edge quantum computing driver programming."
+    ],
+    "branches": [
+      "CSE",
+      "IT"
+    ],
+    "academicYears": [
+      "Final Year"
+    ],
+    "minCgpa": 7,
+    "maxBacklogs": 0,
+    "min10thPercentage": 60,
+    "min12thPercentage": 60,
+    "skills": [
+      "Python",
+      "C++",
+      "ROS",
+      "Git"
+    ],
+    "preferredSkills": [],
+    "location": "Chennai",
+    "workMode": "Hybrid",
+    "ctc": "14.5 LPA",
+    "basePay": "7.0 LPA",
+    "joiningBonus": "1.0 Lakhs",
+    "bond": "None",
+    "relocation": "Yes",
+    "employmentType": "Full Time",
+    "deadline": "2026-10-19T06:05:00.000Z",
+    "joiningDate": "2027-07-01",
+    "selectionProcess": [
+      "Online Assessment",
+      "Technical Interview",
+      "HR Interview"
+    ],
+    "perks": [
+      "Health Insurance",
+      "Flexible Timing"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-19T11:35:20.915Z"
+  },
+  {
+    "id": "DRV021",
+    "company": "DynamicRobo_1789810704562",
+    "role": "Quantum Firmware Architect",
+    "department": "Engineering",
+    "description": "Cutting-edge quantum computing driver programming.",
+    "responsibilities": [
+      "Cutting-edge quantum computing driver programming."
+    ],
+    "branches": [
+      "CSE",
+      "IT"
+    ],
+    "academicYears": [
+      "Final Year"
+    ],
+    "minCgpa": 7,
+    "maxBacklogs": 0,
+    "min10thPercentage": 60,
+    "min12thPercentage": 60,
+    "skills": [
+      "Python",
+      "C++",
+      "ROS",
+      "Git"
+    ],
+    "preferredSkills": [],
+    "location": "Chennai",
+    "workMode": "Hybrid",
+    "ctc": "14.5 LPA",
+    "basePay": "7.0 LPA",
+    "joiningBonus": "1.0 Lakhs",
+    "bond": "None",
+    "relocation": "Yes",
+    "employmentType": "Full Time",
+    "deadline": "2026-10-19T04:08:00.000Z",
+    "joiningDate": "2027-07-01",
+    "selectionProcess": [
+      "Online Assessment",
+      "Technical Interview",
+      "HR Interview"
+    ],
+    "perks": [
+      "Health Insurance",
+      "Flexible Timing"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-19T09:38:25.223Z"
+  },
+  {
+    "id": "DRV020",
+    "company": "DynamicRobo_1789810620032",
+    "role": "Quantum Firmware Architect",
+    "department": "Engineering",
+    "description": "Cutting-edge quantum computing driver programming.",
+    "responsibilities": [
+      "Cutting-edge quantum computing driver programming."
+    ],
+    "branches": [
+      "CSE",
+      "IT"
+    ],
+    "academicYears": [
+      "Final Year"
+    ],
+    "minCgpa": 7,
+    "maxBacklogs": 0,
+    "min10thPercentage": 60,
+    "min12thPercentage": 60,
+    "skills": [
+      "Python",
+      "C++",
+      "ROS",
+      "Git"
+    ],
+    "preferredSkills": [],
+    "location": "Chennai",
+    "workMode": "Hybrid",
+    "ctc": "14.5 LPA",
+    "basePay": "7.0 LPA",
+    "joiningBonus": "1.0 Lakhs",
+    "bond": "None",
+    "relocation": "Yes",
+    "employmentType": "Full Time",
+    "deadline": "2026-10-19T04:06:00.000Z",
+    "joiningDate": "2027-07-01",
+    "selectionProcess": [
+      "Online Assessment",
+      "Technical Interview",
+      "HR Interview"
+    ],
+    "perks": [
+      "Health Insurance",
+      "Flexible Timing"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-19T09:37:00.621Z"
+  },
+  {
+    "id": "DRV019",
+    "company": "DynamicRobo_1789809792704",
+    "role": "Quantum Firmware Architect",
+    "department": "Engineering",
+    "description": "Cutting-edge quantum computing driver programming.",
+    "responsibilities": [
+      "Cutting-edge quantum computing driver programming."
+    ],
+    "branches": [
+      "CSE",
+      "IT"
+    ],
+    "academicYears": [
+      "Final Year"
+    ],
+    "minCgpa": 7,
+    "maxBacklogs": 0,
+    "min10thPercentage": 60,
+    "min12thPercentage": 60,
+    "skills": [
+      "Python",
+      "C++",
+      "ROS",
+      "Git"
+    ],
+    "preferredSkills": [],
+    "location": "Chennai",
+    "workMode": "Hybrid",
+    "ctc": "14.5 LPA",
+    "basePay": "7.0 LPA",
+    "joiningBonus": "1.0 Lakhs",
+    "bond": "None",
+    "relocation": "Yes",
+    "employmentType": "Full Time",
+    "deadline": "2026-10-19T03:53:00.000Z",
+    "joiningDate": "2027-07-01",
+    "selectionProcess": [
+      "Online Assessment",
+      "Technical Interview",
+      "HR Interview"
+    ],
+    "perks": [
+      "Health Insurance",
+      "Flexible Timing"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-19T09:23:13.210Z"
+  },
+  {
+    "id": "DRV001",
+    "company": "TechNova Systems",
+    "role": "Software Engineer",
+    "department": "Core Platform Engineering",
+    "description": "TechNova Systems is hiring high-potential software engineers to architect resilient distributed microservices, develop scalable low-latency APIs, and contribute to cutting-edge cloud-native architectures.",
+    "responsibilities": [
+      "Design, implement, and maintain high-throughput enterprise backend services.",
+      "Collaborate with product and DevOps engineers to implement CI/CD pipelines and Kubernetes workloads.",
+      "Participate in code reviews, design documentation, and algorithmic optimization."
+    ],
+    "branches": [
+      "CSE",
+      "IT"
+    ],
+    "academicYears": [
+      "Final Year"
+    ],
+    "minCgpa": 7.5,
+    "maxBacklogs": 0,
+    "min10thPercentage": 60,
+    "min12thPercentage": 60,
+    "skills": [
+      "C++",
+      "Python",
+      "SQL",
+      "DSA"
+    ],
+    "preferredSkills": [
+      "React",
+      "Node.js",
+      "Docker",
+      "AWS"
+    ],
+    "location": "Chennai",
+    "workMode": "Hybrid",
+    "ctc": "9.5 LPA",
+    "basePay": "8.5 LPA",
+    "joiningBonus": "1.0 Lakhs",
+    "bond": "None",
+    "relocation": "Yes (Relocation Allowance provided)",
+    "employmentType": "Full Time",
+    "deadline": "2026-11-30T23:59:59+05:30",
+    "joiningDate": "2027-07-01",
+    "selectionProcess": [
+      "Online Aptitude & Coding Round",
+      "Technical Interview 1 (DSA & Architecture)",
+      "Technical Interview 2 (System Design & Core CS)",
+      "HR & Leadership Discussion"
+    ],
+    "perks": [
+      "Health Insurance Coverage (5 Lakhs)",
+      "Flexible Work Hours",
+      "Annual Learning Budget"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-01T10:00:00+05:30"
+  },
+  {
+    "id": "DRV002",
+    "company": "CloudMatrix Labs",
+    "role": "Backend Developer",
+    "department": "Infrastructure & Cloud Services",
+    "description": "CloudMatrix Labs is an enterprise cloud acceleration company searching for talented backend engineers proficient in concurrent programming, distributed caches, and database optimization.",
+    "responsibilities": [
+      "Develop robust REST and gRPC endpoints supporting million-scale requests.",
+      "Optimize SQL/NoSQL databases and partition strategies.",
+      "Build automated testing suites with high test coverage."
+    ],
+    "branches": [
+      "CSE",
+      "IT"
+    ],
+    "academicYears": [
+      "Final Year"
+    ],
+    "minCgpa": 8,
+    "maxBacklogs": 0,
+    "min10thPercentage": 65,
+    "min12thPercentage": 65,
+    "skills": [
+      "Java",
+      "Python",
+      "SQL",
+      "Distributed Systems"
+    ],
+    "preferredSkills": [
+      "Spring Boot",
+      "Kafka",
+      "Redis",
+      "GCP"
+    ],
+    "location": "Bangalore",
+    "workMode": "On-site",
+    "ctc": "10.0 LPA",
+    "basePay": "9.0 LPA",
+    "joiningBonus": "1.0 Lakhs",
+    "bond": "None",
+    "relocation": "Yes",
+    "employmentType": "Full Time",
+    "deadline": "2026-12-15T23:59:59+05:30",
+    "joiningDate": "2027-07-15",
+    "selectionProcess": [
+      "Online MCQ + 2 Coding Problems",
+      "System Architecture Round",
+      "Core Values & Culture Interview"
+    ],
+    "perks": [
+      "Catered Meals",
+      "Gym Reimbursement",
+      "Device Allowance"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-02T11:00:00+05:30"
+  },
+  {
+    "id": "DRV003",
+    "company": "DataForge Analytics",
+    "role": "Data Analyst",
+    "department": "Business Intelligence & Analytics",
+    "description": "DataForge Analytics works with global Fortune 500 enterprises to turn unstructured data into actionable operational insights through statistical modeling and automated dashboards.",
+    "responsibilities": [
+      "Build and automate SQL queries and ETL pipelines for enterprise analytics.",
+      "Design interactive dashboards in PowerBI/Tableau for C-level leadership.",
+      "Conduct exploratory data analysis using Python and Pandas."
+    ],
+    "branches": [
+      "CSE",
+      "IT"
+    ],
+    "academicYears": [
+      "Final Year",
+      "Pre-Final Year"
+    ],
+    "minCgpa": 7,
+    "maxBacklogs": 1,
+    "min10thPercentage": 60,
+    "min12thPercentage": 60,
+    "skills": [
+      "Python",
+      "SQL",
+      "Excel",
+      "Data Visualization"
+    ],
+    "preferredSkills": [
+      "PowerBI",
+      "Tableau",
+      "Pandas",
+      "Scikit-Learn"
+    ],
+    "location": "Chennai",
+    "workMode": "Hybrid",
+    "ctc": "7.2 LPA",
+    "basePay": "6.5 LPA",
+    "joiningBonus": "0.7 Lakhs",
+    "bond": "1 Year",
+    "relocation": "No",
+    "employmentType": "Full Time",
+    "deadline": "2026-11-25T23:59:59+05:30",
+    "joiningDate": "2027-06-15",
+    "selectionProcess": [
+      "Data Analytics & SQL Assessment",
+      "Business Case Study Interview",
+      "Managerial Round"
+    ],
+    "perks": [
+      "Wellness Stipend",
+      "Certification Sponsorship"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-03T09:30:00+05:30"
+  },
+  {
+    "id": "DRV004",
+    "company": "AppVertex Technologies",
+    "role": "Full Stack Developer",
+    "department": "Web & Mobile Applications",
+    "description": "AppVertex builds next-generation SaaS solutions for logistics and supply chain optimization, delivering high-performance responsive web and mobile interfaces.",
+    "responsibilities": [
+      "Architect component-driven frontend interfaces using modern web frameworks.",
+      "Integrate secure RESTful services and payment gateways.",
+      "Ensure web performance optimization, accessibility, and cross-browser support."
+    ],
+    "branches": [
+      "CSE",
+      "IT"
+    ],
+    "academicYears": [
+      "Final Year"
+    ],
+    "minCgpa": 7.5,
+    "maxBacklogs": 0,
+    "min10thPercentage": 60,
+    "min12thPercentage": 60,
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "HTML/CSS",
+      "Git"
+    ],
+    "preferredSkills": [
+      "TypeScript",
+      "Next.js",
+      "PostgreSQL",
+      "TailwindCSS"
+    ],
+    "location": "Chennai",
+    "workMode": "Hybrid",
+    "ctc": "8.0 LPA",
+    "basePay": "7.2 LPA",
+    "joiningBonus": "0.8 Lakhs",
+    "bond": "None",
+    "relocation": "Yes",
+    "employmentType": "Full Time",
+    "deadline": "2026-11-20T23:59:59+05:30",
+    "joiningDate": "2027-07-01",
+    "selectionProcess": [
+      "Full Stack Coding Assessment",
+      "Live Coding / Pair Programming Interview",
+      "HR Discussion"
+    ],
+    "perks": [
+      "Remote Work Flexibility",
+      "Annual Bonus",
+      "Health Cover"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-04T14:00:00+05:30"
+  },
+  {
+    "id": "DRV005",
+    "company": "SignalCore Technologies",
+    "role": "Embedded Systems Engineer",
+    "department": "Hardware Systems & Firmware",
+    "description": "SignalCore Technologies engineers mission-critical firmware and embedded micro-controllers for automotive safety and telemetry systems.",
+    "responsibilities": [
+      "Write clean, deterministic C/C++ firmware for ARM Cortex microcontrollers.",
+      "Debug hardware-software interfaces using oscilloscopes and logic analyzers.",
+      "Implement communication protocols including CAN, SPI, I2C, and UART."
+    ],
+    "branches": [
+      "ECE"
+    ],
+    "academicYears": [
+      "Final Year"
+    ],
+    "minCgpa": 7,
+    "maxBacklogs": 0,
+    "min10thPercentage": 60,
+    "min12thPercentage": 60,
+    "skills": [
+      "Embedded C",
+      "Microcontrollers",
+      "RTOS",
+      "Circuit Debugging"
+    ],
+    "preferredSkills": [
+      "ARM Cortex",
+      "CAN Protocol",
+      "FreeRTOS",
+      "MATLAB"
+    ],
+    "location": "Chennai",
+    "workMode": "On-site",
+    "ctc": "7.5 LPA",
+    "basePay": "6.8 LPA",
+    "joiningBonus": "0.7 Lakhs",
+    "bond": "1 Year",
+    "relocation": "No",
+    "employmentType": "Full Time",
+    "deadline": "2026-11-18T23:59:59+05:30",
+    "joiningDate": "2027-06-20",
+    "selectionProcess": [
+      "Technical Core ECE Aptitude Test",
+      "Hardware / Embedded C Practical Round",
+      "Technical Panel Interview",
+      "HR Interview"
+    ],
+    "perks": [
+      "R&D Lab Access",
+      "Medical Insurance",
+      "Provident Fund"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-05T10:15:00+05:30"
+  },
+  {
+    "id": "DRV006",
+    "company": "WaveLink Semiconductors",
+    "role": "VLSI Design Engineer",
+    "department": "Silicon Design & Verification",
+    "description": "WaveLink is a leading semiconductor IP provider crafting sub-3nm chip designs, digital signal processing blocks, and high-frequency ASIC architectures.",
+    "responsibilities": [
+      "Develop RTL models using Verilog and SystemVerilog.",
+      "Conduct static timing analysis (STA) and synthesis verification.",
+      "Construct UVM-based testbenches for functional coverage."
+    ],
+    "branches": [
+      "ECE"
+    ],
+    "academicYears": [
+      "Final Year"
+    ],
+    "minCgpa": 8,
+    "maxBacklogs": 0,
+    "min10thPercentage": 70,
+    "min12thPercentage": 70,
+    "skills": [
+      "Verilog",
+      "SystemVerilog",
+      "Digital Electronics",
+      "STA"
+    ],
+    "preferredSkills": [
+      "UVM",
+      "Cadence Tools",
+      "Synopsys",
+      "Perl/Python"
+    ],
+    "location": "Bangalore",
+    "workMode": "On-site",
+    "ctc": "11.0 LPA",
+    "basePay": "10.0 LPA",
+    "joiningBonus": "1.0 Lakhs",
+    "bond": "None",
+    "relocation": "Yes",
+    "employmentType": "Full Time",
+    "deadline": "2026-12-05T23:59:59+05:30",
+    "joiningDate": "2027-07-10",
+    "selectionProcess": [
+      "National VLSI Technical Test",
+      "Digital Design & Timing Analysis Round",
+      "Deep Technical Domain Interview",
+      "HR Round"
+    ],
+    "perks": [
+      "Stock Options / ESPP",
+      "Comprehensive Medical Cover",
+      "Relocation Support"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-06T15:30:00+05:30"
+  },
+  {
+    "id": "DRV007",
+    "company": "IoTWorks India",
+    "role": "IoT Engineer",
+    "department": "Connected Devices & Edge Computing",
+    "description": "IoTWorks India creates smart agriculture and smart grid sensor nodes connecting thousands of edge devices to cloud telemetry.",
+    "responsibilities": [
+      "Design edge sensor node firmware and mesh networking protocols.",
+      "Connect sensor nodes to AWS IoT Core / MQTT brokers.",
+      "Test power consumption and battery management circuits."
+    ],
+    "branches": [
+      "ECE",
+      "EEE"
+    ],
+    "academicYears": [
+      "Final Year",
+      "Pre-Final Year"
+    ],
+    "minCgpa": 7,
+    "maxBacklogs": 1,
+    "min10thPercentage": 60,
+    "min12thPercentage": 60,
+    "skills": [
+      "C/C++",
+      "IoT Protocols (MQTT/CoAP)",
+      "Microcontrollers",
+      "Python"
+    ],
+    "preferredSkills": [
+      "ESP32",
+      "LoRaWAN",
+      "AWS IoT",
+      "PCB Design"
+    ],
+    "location": "Coimbatore",
+    "workMode": "Hybrid",
+    "ctc": "6.8 LPA",
+    "basePay": "6.0 LPA",
+    "joiningBonus": "0.8 Lakhs",
+    "bond": "None",
+    "relocation": "No",
+    "employmentType": "Full Time",
+    "deadline": "2026-11-28T23:59:59+05:30",
+    "joiningDate": "2027-06-25",
+    "selectionProcess": [
+      "Electronics & Networking Quiz",
+      "IoT Prototype / Coding Round",
+      "Technical & HR Interview"
+    ],
+    "perks": [
+      "Hardware Lab Kit",
+      "Internet Allowance",
+      "Health Insurance"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-07T11:45:00+05:30"
+  },
+  {
+    "id": "DRV008",
+    "company": "PowerGrid Innovations",
+    "role": "Electrical Design Engineer",
+    "department": "Substation Automation & Switchgear",
+    "description": "PowerGrid Innovations builds state-of-the-art power distribution networks, switchgear protection systems, and high-voltage substation automation.",
+    "responsibilities": [
+      "Design single line diagrams (SLD) and protection schematics for high-voltage substations.",
+      "Execute power system load flow studies and fault analysis.",
+      "Perform compliance checks against IEEE and IEC grid codes."
+    ],
+    "branches": [
+      "EEE"
+    ],
+    "academicYears": [
+      "Final Year"
+    ],
+    "minCgpa": 7,
+    "maxBacklogs": 0,
+    "min10thPercentage": 60,
+    "min12thPercentage": 60,
+    "skills": [
+      "Power Systems",
+      "Circuit Analysis",
+      "AutoCAD Electrical",
+      "Protection Relays"
+    ],
+    "preferredSkills": [
+      "ETAP",
+      "MATLAB Simulink",
+      "SCADA",
+      "IEC 61850"
+    ],
+    "location": "Chennai",
+    "workMode": "On-site",
+    "ctc": "7.0 LPA",
+    "basePay": "6.3 LPA",
+    "joiningBonus": "0.7 Lakhs",
+    "bond": "1.5 Years",
+    "relocation": "Yes",
+    "employmentType": "Full Time",
+    "deadline": "2026-11-22T23:59:59+05:30",
+    "joiningDate": "2027-07-01",
+    "selectionProcess": [
+      "Electrical Core Written Test",
+      "Technical Design Review Round",
+      "Final HR Interview"
+    ],
+    "perks": [
+      "Site Travel Allowance",
+      "Gratuity",
+      "Group Health Policy"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-08T09:00:00+05:30"
+  },
+  {
+    "id": "DRV009",
+    "company": "VoltEdge Energy",
+    "role": "Power Electronics Engineer",
+    "department": "Electric Vehicles & Renewable Inverters",
+    "description": "VoltEdge Energy designs high-efficiency DC-DC converters, on-board EV chargers, and solar inverter electronics for the clean energy transition.",
+    "responsibilities": [
+      "Model and simulate resonant power converter topologies using SPICE / MATLAB.",
+      "Design gate drivers, magnetics, and thermal cooling solutions.",
+      "Conduct hardware board bring-up and efficiency testing."
+    ],
+    "branches": [
+      "EEE",
+      "ECE"
+    ],
+    "academicYears": [
+      "Final Year"
+    ],
+    "minCgpa": 7.5,
+    "maxBacklogs": 0,
+    "min10thPercentage": 65,
+    "min12thPercentage": 65,
+    "skills": [
+      "Power Electronics",
+      "MATLAB Simulink",
+      "Circuit Design",
+      "Magnetics"
+    ],
+    "preferredSkills": [
+      "PCB Layout (Altium)",
+      "Thermal Simulation",
+      "DSP Control"
+    ],
+    "location": "Bangalore",
+    "workMode": "On-site",
+    "ctc": "8.5 LPA",
+    "basePay": "7.5 LPA",
+    "joiningBonus": "1.0 Lakhs",
+    "bond": "None",
+    "relocation": "Yes",
+    "employmentType": "Full Time",
+    "deadline": "2026-12-01T23:59:59+05:30",
+    "joiningDate": "2027-07-01",
+    "selectionProcess": [
+      "Power Electronics Aptitude Test",
+      "Simulink / Circuit Design Round",
+      "Technical Panel & HR Round"
+    ],
+    "perks": [
+      "EV Lease Scheme",
+      "Health Insurance",
+      "Bonus Program"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-09T16:20:00+05:30"
+  },
+  {
+    "id": "DRV010",
+    "company": "Electra Automation",
+    "role": "Automation Engineer",
+    "department": "Industrial Automation & Robotics",
+    "description": "Electra Automation is a leading systems integrator providing turnkey industrial automation, PLC programming, and SCADA monitoring for automotive production lines.",
+    "responsibilities": [
+      "Program and debug PLCs (Siemens / Allen-Bradley) and HMI control screens.",
+      "Commission variable frequency drives (VFD) and industrial fieldbus networks.",
+      "Assist in on-site integration and automated testing."
+    ],
+    "branches": [
+      "EEE",
+      "ECE"
+    ],
+    "academicYears": [
+      "Final Year",
+      "Pre-Final Year"
+    ],
+    "minCgpa": 6.5,
+    "maxBacklogs": 1,
+    "min10thPercentage": 55,
+    "min12thPercentage": 55,
+    "skills": [
+      "PLC Programming",
+      "Industrial Automation",
+      "Control Systems",
+      "SCADA"
+    ],
+    "preferredSkills": [
+      "TIA Portal",
+      "Profibus/Profinet",
+      "Robotics Integration"
+    ],
+    "location": "Chennai",
+    "workMode": "On-site",
+    "ctc": "6.5 LPA",
+    "basePay": "5.8 LPA",
+    "joiningBonus": "0.7 Lakhs",
+    "bond": "1 Year",
+    "relocation": "No",
+    "employmentType": "Full Time",
+    "deadline": "2026-11-15T23:59:59+05:30",
+    "joiningDate": "2027-06-15",
+    "selectionProcess": [
+      "Automation Fundamentals Test",
+      "Ladder Logic Practical Round",
+      "HR Interview"
+    ],
+    "perks": [
+      "Plant Travel Bonus",
+      "Health Cover",
+      "Overtime Compensation"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-10T10:00:00+05:30"
+  },
+  {
+    "id": "DRV011",
+    "company": "AeroFab Engineering",
+    "role": "Manufacturing Engineer",
+    "department": "Aerospace Precision Machining",
+    "description": "AeroFab Engineering manufactures AS9100-certified titanium structural components and turbine housings for global commercial aircraft programs.",
+    "responsibilities": [
+      "Develop CNC machining processes and toolpath strategies using CAM software.",
+      "Design specialized fixtures and gauges for multi-axis milling.",
+      "Enforce Lean manufacturing principles and root-cause non-conformance analysis."
+    ],
+    "branches": [
+      "Manufacturing"
+    ],
+    "academicYears": [
+      "Final Year"
+    ],
+    "minCgpa": 7,
+    "maxBacklogs": 0,
+    "min10thPercentage": 60,
+    "min12thPercentage": 60,
+    "skills": [
+      "CNC Machining",
+      "CAD/CAM",
+      "Manufacturing Processes",
+      "GD&T"
+    ],
+    "preferredSkills": [
+      "Mastercam",
+      "SolidWorks",
+      "AS9100 Standards",
+      "Six Sigma"
+    ],
+    "location": "Chennai",
+    "workMode": "On-site",
+    "ctc": "6.8 LPA",
+    "basePay": "6.0 LPA",
+    "joiningBonus": "0.8 Lakhs",
+    "bond": "1 Year",
+    "relocation": "No",
+    "employmentType": "Full Time",
+    "deadline": "2026-11-20T23:59:59+05:30",
+    "joiningDate": "2027-07-01",
+    "selectionProcess": [
+      "Manufacturing Fundamentals Test",
+      "CAD/CAM Practical Assessment",
+      "Technical Review & HR Round"
+    ],
+    "perks": [
+      "Annual Performance Incentive",
+      "Full Safety Equipment",
+      "Medical Coverage"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-11T13:40:00+05:30"
+  },
+  {
+    "id": "DRV012",
+    "company": "PrecisionWorks",
+    "role": "Production Engineer",
+    "department": "Assembly Line & Operations",
+    "description": "PrecisionWorks operates high-speed precision stamping and sheet metal forming plants delivering mechanical subsystems for consumer appliances.",
+    "responsibilities": [
+      "Manage line balancing, takt-time calculation, and bottleneck alleviation.",
+      "Implement 5S, Kaizen, and preventive maintenance routines.",
+      "Track production KPIs (OEE, Scrap Rate, First Pass Yield)."
+    ],
+    "branches": [
+      "Manufacturing"
+    ],
+    "academicYears": [
+      "Final Year"
+    ],
+    "minCgpa": 6.5,
+    "maxBacklogs": 1,
+    "min10thPercentage": 55,
+    "min12thPercentage": 55,
+    "skills": [
+      "Production Planning",
+      "Lean Manufacturing",
+      "Quality Control",
+      "5S/Kaizen"
+    ],
+    "preferredSkills": [
+      "Six Sigma Green Belt",
+      "ERP/SAP",
+      "Statistical Quality Control"
+    ],
+    "location": "Coimbatore",
+    "workMode": "On-site",
+    "ctc": "6.2 LPA",
+    "basePay": "5.5 LPA",
+    "joiningBonus": "0.7 Lakhs",
+    "bond": "1 Year",
+    "relocation": "No",
+    "employmentType": "Full Time",
+    "deadline": "2026-11-19T23:59:59+05:30",
+    "joiningDate": "2027-06-15",
+    "selectionProcess": [
+      "Aptitude & Production Engineering Exam",
+      "Shop Floor Scenario Interview",
+      "HR Interview"
+    ],
+    "perks": [
+      "Subsidized Meals",
+      "Health Policy",
+      "Shift Allowance"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-12T11:00:00+05:30"
+  },
+  {
+    "id": "DRV013",
+    "company": "AutoMech Systems",
+    "role": "CAD / Manufacturing Engineer",
+    "department": "Automotive Tooling Design",
+    "description": "AutoMech Systems specializes in plastic injection molds, progressive sheet metal dies, and automotive BIW structural assemblies.",
+    "responsibilities": [
+      "Create 3D parametric models and 2D manufacturing drawings using Siemens NX.",
+      "Perform mold flow and sheet metal formability simulations.",
+      "Coordinate with toolroom technicians during mold commissioning."
+    ],
+    "branches": [
+      "Manufacturing"
+    ],
+    "academicYears": [
+      "Final Year",
+      "Pre-Final Year"
+    ],
+    "minCgpa": 7,
+    "maxBacklogs": 0,
+    "min10thPercentage": 60,
+    "min12thPercentage": 60,
+    "skills": [
+      "CAD (NX / SolidWorks)",
+      "Tool & Die Design",
+      "GD&T",
+      "Materials"
+    ],
+    "preferredSkills": [
+      "Moldflow",
+      "Additive Manufacturing",
+      "ANSYS"
+    ],
+    "location": "Chennai",
+    "workMode": "On-site",
+    "ctc": "7.5 LPA",
+    "basePay": "6.6 LPA",
+    "joiningBonus": "0.9 Lakhs",
+    "bond": "None",
+    "relocation": "No",
+    "employmentType": "Full Time",
+    "deadline": "2026-11-26T23:59:59+05:30",
+    "joiningDate": "2027-07-01",
+    "selectionProcess": [
+      "CAD Design Challenge (2 Hours)",
+      "Technical Tooling Interview",
+      "HR Interaction"
+    ],
+    "perks": [
+      "Workplace Fitness Center",
+      "Health Cover",
+      "Project Bonus"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-13T14:15:00+05:30"
+  },
+  {
+    "id": "DRV014",
+    "company": "RoboMotion Labs",
+    "role": "Robotics Engineer",
+    "department": "Autonomous Mobile Robotics (AMR)",
+    "description": "RoboMotion Labs builds autonomous warehouse robots combining mechatronic design, embedded motor control, LiDAR SLAM, and computer vision.",
+    "responsibilities": [
+      "Develop robotic software nodes using ROS 2 in C++ and Python.",
+      "Integrate kinematic controllers with BLDC motor drivers and encoders.",
+      "Perform sensor fusion (IMU, LiDAR, Encoders) for accurate indoor localization."
+    ],
+    "branches": [
+      "CSE",
+      "ECE",
+      "EEE",
+      "Manufacturing"
+    ],
+    "academicYears": [
+      "Final Year"
+    ],
+    "minCgpa": 7.5,
+    "maxBacklogs": 0,
+    "min10thPercentage": 65,
+    "min12thPercentage": 65,
+    "skills": [
+      "ROS / ROS2",
+      "C++",
+      "Python",
+      "Kinematics",
+      "Mechatronics"
+    ],
+    "preferredSkills": [
+      "SLAM",
+      "OpenCV",
+      "Gazebo Simulation",
+      "Embedded Linux"
+    ],
+    "location": "Bangalore",
+    "workMode": "Hybrid",
+    "ctc": "9.0 LPA",
+    "basePay": "8.0 LPA",
+    "joiningBonus": "1.0 Lakhs",
+    "bond": "None",
+    "relocation": "Yes",
+    "employmentType": "Full Time",
+    "deadline": "2026-12-10T23:59:59+05:30",
+    "joiningDate": "2027-07-01",
+    "selectionProcess": [
+      "Robotics & Math Foundations Assessment",
+      "ROS/Coding Take-Home Challenge",
+      "Technical Cross-Disciplinary Panel",
+      "HR Discussion"
+    ],
+    "perks": [
+      "Hackathon Sabbaticals",
+      "Robotics Hardware Lab",
+      "Flexible Hours"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-14T10:30:00+05:30"
+  },
+  {
+    "id": "DRV015",
+    "company": "IndustryNext Technologies",
+    "role": "Industrial AI Engineer",
+    "department": "Smart Factory & Predictive Maintenance",
+    "description": "IndustryNext Technologies deploys edge AI inference models onto manufacturing machinery to predict mechanical faults before catastrophic failure occurs.",
+    "responsibilities": [
+      "Train vibration and acoustic anomaly detection models using PyTorch/TensorFlow.",
+      "Deploy quantized neural networks onto embedded edge accelerators (NVIDIA Jetson).",
+      "Integrate machine learning pipelines with factory telemetry networks."
+    ],
+    "branches": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Manufacturing"
+    ],
+    "academicYears": [
+      "Final Year"
+    ],
+    "minCgpa": 8,
+    "maxBacklogs": 0,
+    "min10thPercentage": 70,
+    "min12thPercentage": 70,
+    "skills": [
+      "Machine Learning",
+      "Python",
+      "Deep Learning",
+      "Signal Processing"
+    ],
+    "preferredSkills": [
+      "PyTorch",
+      "Edge AI (Jetson/TensorRT)",
+      "Docker",
+      "Timeseries Analysis"
+    ],
+    "location": "Chennai",
+    "workMode": "Hybrid",
+    "ctc": "10.5 LPA",
+    "basePay": "9.2 LPA",
+    "joiningBonus": "1.3 Lakhs",
+    "bond": "None",
+    "relocation": "No",
+    "employmentType": "Full Time",
+    "deadline": "2026-12-08T23:59:59+05:30",
+    "joiningDate": "2027-07-15",
+    "selectionProcess": [
+      "ML Coding & Statistics Assessment",
+      "Machine Learning Architecture Review",
+      "Technical Director Interview",
+      "HR Interview"
+    ],
+    "perks": [
+      "GPU Cluster Access",
+      "Conference Travel Grant",
+      "Comprehensive Insurance"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-15T09:00:00+05:30"
+  },
+  {
+    "id": "DRV016",
+    "company": "QuantumLeap AI",
+    "role": "AI Research Engineer",
+    "department": "Frontier AI & Large Language Models",
+    "description": "QuantumLeap AI conducts foundational research on LLM reasoning and multimodal generative algorithms. Strict academic standards apply.",
+    "responsibilities": [
+      "Research novel transformer attention mechanisms and efficient fine-tuning techniques.",
+      "Benchmark model hallucinations and reasoning capability on code and math datasets."
+    ],
+    "branches": [
+      "CSE",
+      "IT"
+    ],
+    "academicYears": [
+      "Final Year"
+    ],
+    "minCgpa": 8.5,
+    "maxBacklogs": 0,
+    "min10thPercentage": 75,
+    "min12thPercentage": 75,
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Transformers",
+      "Linear Algebra"
+    ],
+    "preferredSkills": [
+      "CUDA",
+      "Distributed Training (DeepSpeed)",
+      "LLM Fine-tuning"
+    ],
+    "location": "Bangalore",
+    "workMode": "Hybrid",
+    "ctc": "16.0 LPA",
+    "basePay": "14.0 LPA",
+    "joiningBonus": "2.0 Lakhs",
+    "bond": "None",
+    "relocation": "Yes",
+    "employmentType": "Full Time",
+    "deadline": "2026-12-20T23:59:59+05:30",
+    "joiningDate": "2027-08-01",
+    "selectionProcess": [
+      "Advanced Math & Deep Learning Test",
+      "Paper Review & Coding Assessment",
+      "Research Scientist Panel",
+      "HR Discussion"
+    ],
+    "perks": [
+      "Full Remote Option",
+      "Top-tier GPU Workstations",
+      "Patent Incentives"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-16T12:00:00+05:30"
+  },
+  {
+    "id": "DRV017",
+    "company": "LegacyCore Networks",
+    "role": "Systems Engineer",
+    "department": "Legacy Telecom Maintenance",
+    "description": "Maintenance of legacy telecommunication routing hardware and switches.",
+    "responsibilities": [
+      "Maintain routing protocols and monitor system uptime."
+    ],
+    "branches": [
+      "CSE",
+      "IT",
+      "ECE"
+    ],
+    "academicYears": [
+      "Final Year"
+    ],
+    "minCgpa": 6,
+    "maxBacklogs": 0,
+    "min10thPercentage": 50,
+    "min12thPercentage": 50,
+    "skills": [
+      "C",
+      "Networking",
+      "Linux"
+    ],
+    "preferredSkills": [
+      "Shell Scripting"
+    ],
+    "location": "Chennai",
+    "workMode": "On-site",
+    "ctc": "6.0 LPA",
+    "basePay": "5.4 LPA",
+    "joiningBonus": "0.6 Lakhs",
+    "bond": "2 Years",
+    "relocation": "No",
+    "employmentType": "Full Time",
+    "deadline": "2026-01-01T23:59:59+05:30",
+    "joiningDate": "2026-03-01",
+    "selectionProcess": [
+      "Written Test",
+      "HR Interview"
+    ],
+    "perks": [
+      "Basic Medical Cover"
+    ],
+    "status": "EXPIRED",
+    "createdAt": "2025-11-01T10:00:00+05:30"
+  },
+  {
+    "id": "DRV018",
+    "company": "NextGen Innovators",
+    "role": "Summer Software Intern",
+    "department": "Innovation Labs",
+    "description": "Pre-final year summer internship program working on experimental prototype software and consumer web apps.",
+    "responsibilities": [
+      "Develop rapid software prototypes under mentorship of senior software engineers."
+    ],
+    "branches": [
+      "CSE",
+      "IT"
+    ],
+    "academicYears": [
+      "Pre-Final Year"
+    ],
+    "minCgpa": 7,
+    "maxBacklogs": 0,
+    "min10thPercentage": 60,
+    "min12thPercentage": 60,
+    "skills": [
+      "Python",
+      "JavaScript",
+      "DSA"
+    ],
+    "preferredSkills": [
+      "React",
+      "FastAPI"
+    ],
+    "location": "Chennai",
+    "workMode": "Hybrid",
+    "ctc": "40,000 / month (Internship)",
+    "basePay": "40,000 / month",
+    "joiningBonus": "None",
+    "bond": "None",
+    "relocation": "No",
+    "employmentType": "Internship",
+    "deadline": "2026-11-30T23:59:59+05:30",
+    "joiningDate": "2027-05-01",
+    "selectionProcess": [
+      "Online Coding Test",
+      "Technical Chat"
+    ],
+    "perks": [
+      "Internship Certificate",
+      "Pre-Placement Offer (PPO) Opportunity"
+    ],
+    "status": "OPEN",
+    "createdAt": "2026-09-17T11:00:00+05:30"
+  }
+]

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Profile | Anna University Placement Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <div id="navbar-container"></div>
+
+  <main class="main-content">
+    <div style="margin-bottom: 2rem;">
+      <div class="hero-tag">Academic Dossier • Verified by Registrar</div>
+      <h1 style="font-size: 2rem; font-weight: 800; color: #fff; margin-bottom: 0.5rem;">
+        Candidate Placement Profile
+      </h1>
+      <p style="color: var(--text-secondary); max-width: 750px;">
+        Official academic records from College of Engineering, Guindy (CEG) / Anna University. All recruitment eligibility checks are calculated against this verified ground-truth record.
+      </p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 2rem;">
+      <!-- Left Column: Student Identity Card -->
+      <div>
+        <div class="card" style="text-align: center; padding: 2.5rem 1.5rem;">
+          <div style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, var(--gold-500), #f97316); color: #070d18; font-size: 2.2rem; font-weight: 800; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.25rem; box-shadow: var(--shadow-gold);" id="avatar-circle">
+            A
+          </div>
+          <h2 style="font-size: 1.4rem; font-weight: 800; color: #fff;" id="profile-name">Arjun Kumar</h2>
+          <div class="mono" style="font-size: 0.85rem; color: var(--gold-400); margin: 0.25rem 0 0.5rem;" id="profile-roll">AU2027CSE001</div>
+          <div style="font-size: 0.85rem; color: var(--text-secondary);" id="profile-branch">B.E. Computer Science and Engineering</div>
+
+          <div style="margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-around;">
+            <div>
+              <span style="font-size: 0.72rem; color: var(--text-muted); display: block;">CGPA</span>
+              <span style="font-size: 1.3rem; font-weight: 800; color: #10b981;" id="profile-cgpa-val">8.36</span>
+            </div>
+            <div>
+              <span style="font-size: 0.72rem; color: var(--text-muted); display: block;">BACKLOGS</span>
+              <span style="font-size: 1.3rem; font-weight: 800; color: #f8fafc;" id="profile-backlogs-val">0</span>
+            </div>
+            <div>
+              <span style="font-size: 0.72rem; color: var(--text-muted); display: block;">BATCH</span>
+              <span style="font-size: 1.3rem; font-weight: 800; color: var(--gold-400);" id="profile-batch-val">2027</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Switcher for Testing -->
+        <div class="card" style="margin-top: 1.5rem;">
+          <h3 style="font-size: 0.95rem; font-weight: 700; color: #fff; margin-bottom: 0.75rem;">Switch Student Persona (Testing)</h3>
+          <p style="font-size: 0.78rem; color: var(--text-muted); margin-bottom: 0.75rem;">
+            Quickly test eligibility evaluations with different branches, CGPA, and backlog states.
+          </p>
+          <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+            <button class="btn btn-secondary btn-sm" style="text-align: left; justify-content: flex-start;" onclick="switchPersona('AU2027CSE001')">
+              Arjun Kumar (CSE • 8.36 • 0 Backlogs)
+            </button>
+            <button class="btn btn-secondary btn-sm" style="text-align: left; justify-content: flex-start;" onclick="switchPersona('AU2027ECE002')">
+              Priya Sharma (ECE • 7.42 • 0 Backlogs)
+            </button>
+            <button class="btn btn-secondary btn-sm" style="text-align: left; justify-content: flex-start;" onclick="switchPersona('AU2028CSE003')">
+              Karthik V (CSE • Pre-Final • 1 Backlog)
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Full Academic & Skills Breakdown -->
+      <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+        <div class="card">
+          <h3 style="font-size: 1.15rem; font-weight: 800; color: #fff; margin-bottom: 1.25rem;">Academic Credentials</h3>
+          <table class="data-table">
+            <tbody>
+              <tr>
+                <td style="color: var(--text-secondary); width: 35%;">Degree & Course</td>
+                <td style="font-weight: 700; color: #fff;" id="det-course">Bachelor of Engineering (B.E.)</td>
+              </tr>
+              <tr>
+                <td style="color: var(--text-secondary);">Department</td>
+                <td style="font-weight: 700; color: #fff;" id="det-dept">Computer Science and Engineering</td>
+              </tr>
+              <tr>
+                <td style="color: var(--text-secondary);">Current Year</td>
+                <td style="font-weight: 700; color: #fff;" id="det-year">Final Year (8th Semester)</td>
+              </tr>
+              <tr>
+                <td style="color: var(--text-secondary);">Cumulative GPA (CGPA)</td>
+                <td style="font-weight: 800; color: #10b981;" id="det-cgpa">8.36 / 10.0</td>
+              </tr>
+              <tr>
+                <td style="color: var(--text-secondary);">Current Standing Backlogs</td>
+                <td style="font-weight: 700; color: #fff;" id="det-backlogs">0 Standing Backlogs</td>
+              </tr>
+              <tr>
+                <td style="color: var(--text-secondary);">Class 10th Board Score</td>
+                <td style="font-weight: 700; color: #fff;" id="det-10th">92.4% (CBSE / State Board)</td>
+              </tr>
+              <tr>
+                <td style="color: var(--text-secondary);">Class 12th / HSC Score</td>
+                <td style="font-weight: 700; color: #fff;" id="det-12th">94.2% (Maths, Physics, Chem)</td>
+              </tr>
+              <tr>
+                <td style="color: var(--text-secondary);">Graduation Year</td>
+                <td style="font-weight: 700; color: #fff;" id="det-grad">2027</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Skills & Verified Resumes -->
+        <div class="card">
+          <h3 style="font-size: 1.15rem; font-weight: 800; color: #fff; margin-bottom: 1rem;">Technical Skills & Verified Profile</h3>
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem;" id="profile-skills-list">
+            <!-- Chips -->
+          </div>
+
+          <h3 style="font-size: 1rem; font-weight: 700; color: #fff; margin-bottom: 0.75rem;">CUIC Approved Resumes</h3>
+          <div style="display: flex; align-items: center; justify-content: space-between; padding: 0.75rem 1rem; background: rgba(11, 24, 41, 0.6); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm);">
+            <div style="display: flex; align-items: center; gap: 0.75rem;">
+              <span style="font-size: 1.5rem;">📄</span>
+              <div>
+                <strong style="color: #fff; font-size: 0.9rem;" id="resume-filename">AU2027CSE001_Arjun_Resume.pdf</strong>
+                <span style="font-size: 0.75rem; color: #34d399; display: block;">✓ Verified & Attested by Placement Officer</span>
+              </div>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="alert('Resume PDF download simulation active.')">Download</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="footer-container"></div>
+
+  <script src="/js/api.js"></script>
+  <script>
+    API.renderNavbar('profile');
+    API.renderFooter();
+
+    async function loadProfile() {
+      const student = API.getCurrentUser();
+      if (!student) {
+        window.location.href = '/login';
+        return;
+      }
+
+      document.getElementById('avatar-circle').textContent = student.name.charAt(0);
+      document.getElementById('profile-name').textContent = student.name;
+      document.getElementById('profile-roll').textContent = student.id;
+      document.getElementById('profile-branch').textContent = `${student.degree || 'B.E.'} ${student.branchFullName || student.branch}`;
+      document.getElementById('profile-cgpa-val').textContent = (parseFloat(student.cgpa) || 0).toFixed(2);
+      document.getElementById('profile-backlogs-val').textContent = student.backlogs || 0;
+      document.getElementById('profile-batch-val').textContent = student.graduationYear || '2027';
+
+      document.getElementById('det-course').textContent = `${student.degree || 'B.E.'} Degree`;
+      document.getElementById('det-dept').textContent = student.branchFullName || student.branch;
+      document.getElementById('det-year').textContent = student.academicYear;
+      document.getElementById('det-cgpa').textContent = `${(parseFloat(student.cgpa) || 0).toFixed(2)} / 10.0`;
+      document.getElementById('det-backlogs').textContent = `${student.backlogs || 0} Standing Backlogs`;
+      document.getElementById('det-10th').textContent = `${student.tenthPercentage || 90.0}%`;
+      document.getElementById('det-12th').textContent = `${student.twelfthPercentage || 90.0}%`;
+      document.getElementById('det-grad').textContent = student.graduationYear || '2027';
+
+      document.getElementById('resume-filename').textContent = `${student.id}_${student.name.replace(' ', '_')}_Resume.pdf`;
+
+      const skillsContainer = document.getElementById('profile-skills-list');
+      skillsContainer.innerHTML = (student.skills || ['DSA', 'Python', 'Git']).map(s => `
+        <span class="badge" style="background: rgba(230,161,0,0.12); color: var(--gold-400); border: 1px solid var(--border-accent); font-size: 0.82rem; padding: 0.35rem 0.75rem;">${s}</span>
+      `).join('');
+    }
+
+    async function switchPersona(id) {
+      try {
+        const student = await API.getStudent(id);
+        API.setCurrentUser(student);
+        window.location.reload();
+      } catch (e) {
+        console.error('Failed to switch student persona:', e);
+      }
+    }
+
+    loadProfile();
+  </script>
+</body>
+</html>

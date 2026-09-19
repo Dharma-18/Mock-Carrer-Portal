@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anna University Simulated Campus Recruitment Portal</title>
+  <script>
+    // Seamless routing to dashboard or login
+    const user = localStorage.getItem('au_portal_user');
+    if (user) {
+      window.location.replace('/dashboard');
+    } else {
+      window.location.replace('/login');
+    }
+  </script>
+</head>
+<body style="background:#070d18; color:#fff; display:flex; align-items:center; justify-content:center; height:100vh; font-family:sans-serif;">
+  <p>Loading Anna University Placement Portal...</p>
+</body>
+</html>

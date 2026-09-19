@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Dashboard | Anna University Placement Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <div id="navbar-container"></div>
+
+  <main class="main-content" data-testid="dashboard">
+    <!-- Hero Banner with Student Academic Overview -->
+    <section class="hero-banner">
+      <div class="hero-tag">Official Simulation • CUIC CEG Campus</div>
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1.5rem;">
+        <div>
+          <h1 class="hero-title">Welcome, <span id="student-name-hero" style="color: var(--gold-400);">Student</span></h1>
+          <p class="hero-desc">
+            Campus Recruitment Season 2026–2027. Review verified placement drives, analyze company job descriptions, evaluate eligibility criteria, and submit direct applications.
+          </p>
+          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1rem;">
+            <a href="/jobs" class="btn btn-primary" data-testid="explore-jobs-btn">Explore Placement Drives</a>
+            <a href="/applications" class="btn btn-secondary">View My Applications</a>
+          </div>
+        </div>
+        <!-- Profile Quick Card -->
+        <div style="background: rgba(11, 24, 41, 0.85); border: 1px solid var(--border-accent); border-radius: var(--radius-md); padding: 1.25rem 1.75rem; min-width: 260px;">
+          <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--gold-400); font-weight: 700; letter-spacing: 0.05em; margin-bottom: 0.4rem;">
+            Verified Student Profile
+          </div>
+          <div style="font-size: 1.15rem; font-weight: 800; color: #fff;" id="profile-student-id">AU2027CSE001</div>
+          <div style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.2rem;" id="profile-branch-year">
+            B.E. Computer Science & Engg • Final Year
+          </div>
+          <div style="display: flex; gap: 1rem; margin-top: 0.85rem; padding-top: 0.75rem; border-top: 1px solid var(--border-subtle);">
+            <div>
+              <span style="font-size: 0.72rem; color: var(--text-muted); display: block;">CGPA</span>
+              <span style="font-size: 1.1rem; font-weight: 800; color: #10b981;" id="profile-cgpa">8.36</span>
+            </div>
+            <div>
+              <span style="font-size: 0.72rem; color: var(--text-muted); display: block;">BACKLOGS</span>
+              <span style="font-size: 1.1rem; font-weight: 800; color: #f8fafc;" id="profile-backlogs">0</span>
+            </div>
+            <div>
+              <span style="font-size: 0.72rem; color: var(--text-muted); display: block;">BATCH</span>
+              <span style="font-size: 1.1rem; font-weight: 800; color: var(--gold-400);" id="profile-grad-year">2027</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Metrics Grid -->
+    <section class="metrics-grid">
+      <div class="stat-card">
+        <div class="stat-header">
+          <span>Eligible Drives</span>
+          <div class="stat-icon" style="background: var(--success-bg); color: var(--success);">✓</div>
+        </div>
+        <div class="stat-value" id="count-eligible" style="color: var(--success);">-</div>
+        <div class="stat-meta">Verified matching academic profile</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-header">
+          <span>Available Drives</span>
+          <div class="stat-icon" style="background: var(--info-bg); color: var(--info);">🏢</div>
+        </div>
+        <div class="stat-value" id="count-available">-</div>
+        <div class="stat-meta">Open recruitment opportunities</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-header">
+          <span>Applications Submitted</span>
+          <div class="stat-icon" style="background: rgba(59, 130, 246, 0.15); color: #60a5fa;">📝</div>
+        </div>
+        <div class="stat-value" id="count-applications" style="color: #60a5fa;">-</div>
+        <div class="stat-meta">Active candidate submissions</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-header">
+          <span>Top Package</span>
+          <div class="stat-icon" style="background: var(--gold-glow); color: var(--gold-400);">💎</div>
+        </div>
+        <div class="stat-value" id="top-package" style="color: var(--gold-400);">-</div>
+        <div class="stat-meta">Highest CTC across open drives</div>
+      </div>
+    </section>
+
+    <!-- Recommended Eligible Drives Section -->
+    <section style="margin-bottom: 3rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+        <div>
+          <h2 style="font-size: 1.4rem; font-weight: 800; color: #fff;">Recommended & Eligible Drives</h2>
+          <p style="font-size: 0.85rem; color: var(--text-secondary);">
+            Drives where your Branch, CGPA, and Academic Year meet or exceed recruiter cutoffs.
+          </p>
+        </div>
+        <a href="/jobs" class="btn btn-outline btn-sm" data-testid="view-all-jobs">
+          Explore All Drives →
+        </a>
+      </div>
+
+      <div class="jobs-grid" id="recommended-jobs-grid">
+        <div style="color: var(--text-muted); font-size: 0.9rem;">Loading matching opportunities...</div>
+      </div>
+    </section>
+
+    <!-- Recent Applications Overview -->
+    <section>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem;">
+        <div>
+          <h2 style="font-size: 1.4rem; font-weight: 800; color: #fff;">Recent Application History</h2>
+          <p style="font-size: 0.85rem; color: var(--text-secondary);">Real-time tracking of candidate selection lifecycle</p>
+        </div>
+        <a href="/applications" class="btn btn-secondary btn-sm">View Full History</a>
+      </div>
+
+      <div class="data-table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Application ID</th>
+              <th>Company</th>
+              <th>Role</th>
+              <th>Applied Date</th>
+              <th>Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="recent-applications-table">
+            <tr>
+              <td colspan="6" style="text-align: center; color: var(--text-muted);">Loading applications...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-container"></div>
+
+  <script src="/js/api.js"></script>
+  <script>
+    API.renderNavbar('dashboard');
+    API.renderFooter();
+
+    async function loadDashboard() {
+      const student = API.getCurrentUser();
+      if (!student) {
+        window.location.href = '/login';
+        return;
+      }
+
+      // Populate student details
+      document.getElementById('student-name-hero').textContent = student.name;
+      document.getElementById('profile-student-id').textContent = student.id;
+      document.getElementById('profile-branch-year').textContent = `${student.degree || 'B.E.'} ${student.branchFullName || student.branch} • ${student.academicYear}`;
+      document.getElementById('profile-cgpa').textContent = (parseFloat(student.cgpa) || 0).toFixed(2);
+      document.getElementById('profile-backlogs').textContent = student.backlogs || 0;
+      document.getElementById('profile-grad-year').textContent = student.graduationYear || '2027';
+
+      try {
+        // Fetch all jobs with student eligibility pre-evaluated
+        const jobs = await API.getJobs({ studentId: student.id });
+        const applications = await API.getApplications(student.id);
+
+        // Compute metrics
+        const openJobs = jobs.filter(j => j.status === 'OPEN');
+        const eligibleJobs = openJobs.filter(j => j.isEligible);
+
+        document.getElementById('count-available').textContent = openJobs.length;
+        document.getElementById('count-eligible').textContent = eligibleJobs.length;
+        document.getElementById('count-applications').textContent = applications.length;
+
+        // Top package
+        let maxCtc = 0;
+        openJobs.forEach(j => {
+          const val = parseFloat(j.ctc) || 0;
+          if (val > maxCtc) maxCtc = val;
+        });
+        document.getElementById('top-package').textContent = maxCtc > 0 ? `${maxCtc} LPA` : '16 LPA';
+
+        // Render Recommended Drives (first 6 eligible jobs)
+        const recContainer = document.getElementById('recommended-jobs-grid');
+        if (eligibleJobs.length === 0) {
+          recContainer.innerHTML = `
+            <div style="grid-column: 1 / -1; padding: 2rem; background: var(--bg-card); border-radius: var(--radius-md); text-align: center; color: var(--text-muted);">
+              No current drives match your specific branch cutoffs. Visit All Drives to review requirements.
+            </div>
+          `;
+        } else {
+          recContainer.innerHTML = eligibleJobs.slice(0, 6).map(job => renderJobCard(job, student)).join('');
+        }
+
+        // Render Recent Applications Table
+        const appTable = document.getElementById('recent-applications-table');
+        if (applications.length === 0) {
+          appTable.innerHTML = `
+            <tr>
+              <td colspan="6" style="text-align: center; padding: 2rem; color: var(--text-muted);">
+                No applications submitted yet. Browse the eligible drives above and submit an application.
+              </td>
+            </tr>
+          `;
+        } else {
+          appTable.innerHTML = applications.map(app => `
+            <tr data-testid="application-${app.jobId}">
+              <td class="mono" style="color: var(--gold-400); font-weight: 700;">${app.id}</td>
+              <td style="font-weight: 700;">${app.company}</td>
+              <td>${app.jobTitle}</td>
+              <td style="color: var(--text-secondary);">${new Date(app.appliedAt).toLocaleDateString('en-IN')}</td>
+              <td><span class="badge badge-applied">${app.status}</span></td>
+              <td><a href="/jobs/${app.jobId}" class="btn btn-secondary btn-sm" data-testid="view-jd-${app.jobId}">View JD</a></td>
+            </tr>
+          `).join('');
+        }
+
+      } catch (err) {
+        console.error('Failed to load dashboard data:', err);
+      }
+    }
+
+    function renderJobCard(job, student) {
+      const branchesList = (job.branches || []).map(b => `<span class="branch-pill branch-${b}">${b}</span>`).join(' ');
+      const skillsList = (job.skills || []).slice(0, 3).map(s => `<span style="font-size:0.75rem; color:var(--text-muted); background:rgba(255,255,255,0.05); padding:2px 6px; border-radius:3px;">${s}</span>`).join(' ');
+
+      return `
+        <div class="job-card" data-testid="job-card-${job.id}">
+          <div>
+            <div class="job-card-top">
+              <div>
+                <span class="job-company">${job.company}</span>
+                <h3 class="job-role">${job.role}</h3>
+              </div>
+              <span class="job-id-tag">${job.id}</span>
+            </div>
+
+            <div style="display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.85rem;">
+              ${branchesList}
+            </div>
+
+            <div class="job-criteria-box">
+              <div class="job-criteria-row">
+                <span class="job-criteria-label">CTC:</span>
+                <span class="job-criteria-val" style="color: var(--gold-400);">${job.ctc}</span>
+              </div>
+              <div class="job-criteria-row">
+                <span class="job-criteria-label">Min CGPA:</span>
+                <span class="job-criteria-val">${parseFloat(job.minCgpa).toFixed(2)}</span>
+              </div>
+              <div class="job-criteria-row">
+                <span class="job-criteria-label">Max Backlogs:</span>
+                <span class="job-criteria-val">${job.maxBacklogs}</span>
+              </div>
+              <div class="job-criteria-row">
+                <span class="job-criteria-label">Mode & City:</span>
+                <span class="job-criteria-val">${job.workMode} • ${job.location}</span>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 0.35rem; flex-wrap: wrap; margin-bottom: 1.25rem;">
+              ${skillsList}
+            </div>
+          </div>
+
+          <div class="job-card-actions">
+            <a href="/jobs/${job.id}" class="btn btn-secondary btn-sm" style="flex: 1;" data-testid="view-jd-${job.id}">
+              View JD
+            </a>
+            ${job.alreadyApplied ? `
+              <button class="btn btn-secondary btn-sm" disabled style="opacity: 0.7;">Applied</button>
+            ` : job.isEligible ? `
+              <a href="/jobs/${job.id}?action=apply" class="btn btn-primary btn-sm" data-testid="apply-${job.id}">
+                Apply Now
+              </a>
+            ` : `
+              <button class="btn btn-secondary btn-sm" disabled style="opacity: 0.5;">Ineligible</button>
+            `}
+          </div>
+        </div>
+      `;
+    }
+
+    loadDashboard();
+  </script>
+</body>
+</html>

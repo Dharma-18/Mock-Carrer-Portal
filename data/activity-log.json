@@ -1,0 +1,4502 @@
+[
+  {
+    "id": "ACT-1789834204690-790",
+    "timestamp": "2026-09-19T16:10:04.690Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV007",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE, EEE."
+  },
+  {
+    "id": "ACT-1789834204669-270",
+    "timestamp": "2026-09-19T16:10:04.669Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV007",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IoTWorks India - IoT Engineer"
+  },
+  {
+    "id": "ACT-1789834203999-917",
+    "timestamp": "2026-09-19T16:10:03.999Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV014",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789834203977-228",
+    "timestamp": "2026-09-19T16:10:03.977Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV014",
+    "result": "SUCCESS",
+    "details": "Viewed JD for RoboMotion Labs - Robotics Engineer"
+  },
+  {
+    "id": "ACT-1789834203311-68",
+    "timestamp": "2026-09-19T16:10:03.312Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789834203282-272",
+    "timestamp": "2026-09-19T16:10:03.283Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789834202596-543",
+    "timestamp": "2026-09-19T16:10:02.596Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789834202555-566",
+    "timestamp": "2026-09-19T16:10:02.555Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789834201855-760",
+    "timestamp": "2026-09-19T16:10:01.855Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV015",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 8.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789834201808-55",
+    "timestamp": "2026-09-19T16:10:01.808Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV015",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IndustryNext Technologies - Industrial AI Engineer"
+  },
+  {
+    "id": "ACT-1789834200818-749",
+    "timestamp": "2026-09-19T16:10:00.818Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789834200399-240",
+    "timestamp": "2026-09-19T16:10:00.399Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789834193455-469",
+    "timestamp": "2026-09-19T16:09:53.455Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV007",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE, EEE."
+  },
+  {
+    "id": "ACT-1789834193438-618",
+    "timestamp": "2026-09-19T16:09:53.438Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV007",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IoTWorks India - IoT Engineer"
+  },
+  {
+    "id": "ACT-1789834192779-372",
+    "timestamp": "2026-09-19T16:09:52.779Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV014",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789834192760-666",
+    "timestamp": "2026-09-19T16:09:52.760Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV014",
+    "result": "SUCCESS",
+    "details": "Viewed JD for RoboMotion Labs - Robotics Engineer"
+  },
+  {
+    "id": "ACT-1789834192083-945",
+    "timestamp": "2026-09-19T16:09:52.083Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789834192066-742",
+    "timestamp": "2026-09-19T16:09:52.066Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789834191397-783",
+    "timestamp": "2026-09-19T16:09:51.397Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789834191373-898",
+    "timestamp": "2026-09-19T16:09:51.373Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789834190712-83",
+    "timestamp": "2026-09-19T16:09:50.712Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV015",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 8.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789834190680-907",
+    "timestamp": "2026-09-19T16:09:50.680Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV015",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IndustryNext Technologies - Industrial AI Engineer"
+  },
+  {
+    "id": "ACT-1789834189573-349",
+    "timestamp": "2026-09-19T16:09:49.573Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789834189165-936",
+    "timestamp": "2026-09-19T16:09:49.165Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789833941625-829",
+    "timestamp": "2026-09-19T16:05:41.625Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV007",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE, EEE."
+  },
+  {
+    "id": "ACT-1789833941606-229",
+    "timestamp": "2026-09-19T16:05:41.606Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV007",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IoTWorks India - IoT Engineer"
+  },
+  {
+    "id": "ACT-1789833940939-864",
+    "timestamp": "2026-09-19T16:05:40.939Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV014",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833940912-255",
+    "timestamp": "2026-09-19T16:05:40.912Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV014",
+    "result": "SUCCESS",
+    "details": "Viewed JD for RoboMotion Labs - Robotics Engineer"
+  },
+  {
+    "id": "ACT-1789833940249-591",
+    "timestamp": "2026-09-19T16:05:40.249Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833940223-341",
+    "timestamp": "2026-09-19T16:05:40.223Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789833939527-600",
+    "timestamp": "2026-09-19T16:05:39.527Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789833939481-748",
+    "timestamp": "2026-09-19T16:05:39.481Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789833938789-338",
+    "timestamp": "2026-09-19T16:05:38.789Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV015",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 8.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833938720-575",
+    "timestamp": "2026-09-19T16:05:38.720Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV015",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IndustryNext Technologies - Industrial AI Engineer"
+  },
+  {
+    "id": "ACT-1789833937697-7",
+    "timestamp": "2026-09-19T16:05:37.697Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789833937275-849",
+    "timestamp": "2026-09-19T16:05:37.275Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789833919027-532",
+    "timestamp": "2026-09-19T16:05:19.027Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV007",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE, EEE."
+  },
+  {
+    "id": "ACT-1789833919004-416",
+    "timestamp": "2026-09-19T16:05:19.004Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV007",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IoTWorks India - IoT Engineer"
+  },
+  {
+    "id": "ACT-1789833918525-784",
+    "timestamp": "2026-09-19T16:05:18.525Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV007",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE, EEE."
+  },
+  {
+    "id": "ACT-1789833918501-771",
+    "timestamp": "2026-09-19T16:05:18.501Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV007",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IoTWorks India - IoT Engineer"
+  },
+  {
+    "id": "ACT-1789833918333-768",
+    "timestamp": "2026-09-19T16:05:18.333Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV014",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833918305-539",
+    "timestamp": "2026-09-19T16:05:18.305Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV014",
+    "result": "SUCCESS",
+    "details": "Viewed JD for RoboMotion Labs - Robotics Engineer"
+  },
+  {
+    "id": "ACT-1789833917849-76",
+    "timestamp": "2026-09-19T16:05:17.849Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV014",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833917831-959",
+    "timestamp": "2026-09-19T16:05:17.831Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV014",
+    "result": "SUCCESS",
+    "details": "Viewed JD for RoboMotion Labs - Robotics Engineer"
+  },
+  {
+    "id": "ACT-1789833917661-754",
+    "timestamp": "2026-09-19T16:05:17.661Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833917628-497",
+    "timestamp": "2026-09-19T16:05:17.628Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789833917142-329",
+    "timestamp": "2026-09-19T16:05:17.142Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833917088-944",
+    "timestamp": "2026-09-19T16:05:17.088Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789833916932-287",
+    "timestamp": "2026-09-19T16:05:16.932Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789833916904-537",
+    "timestamp": "2026-09-19T16:05:16.904Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789833916455-928",
+    "timestamp": "2026-09-19T16:05:16.455Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV007",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE, EEE."
+  },
+  {
+    "id": "ACT-1789833916436-156",
+    "timestamp": "2026-09-19T16:05:16.436Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV007",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IoTWorks India - IoT Engineer"
+  },
+  {
+    "id": "ACT-1789833916348-594",
+    "timestamp": "2026-09-19T16:05:16.348Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789833916313-727",
+    "timestamp": "2026-09-19T16:05:16.313Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789833916176-938",
+    "timestamp": "2026-09-19T16:05:16.176Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV015",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 8.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833916140-328",
+    "timestamp": "2026-09-19T16:05:16.140Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV015",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IndustryNext Technologies - Industrial AI Engineer"
+  },
+  {
+    "id": "ACT-1789833915648-308",
+    "timestamp": "2026-09-19T16:05:15.648Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV014",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833915616-630",
+    "timestamp": "2026-09-19T16:05:15.616Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV014",
+    "result": "SUCCESS",
+    "details": "Viewed JD for RoboMotion Labs - Robotics Engineer"
+  },
+  {
+    "id": "ACT-1789833915445-917",
+    "timestamp": "2026-09-19T16:05:15.445Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV015",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 8.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833915395-513",
+    "timestamp": "2026-09-19T16:05:15.395Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV015",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IndustryNext Technologies - Industrial AI Engineer"
+  },
+  {
+    "id": "ACT-1789833914847-961",
+    "timestamp": "2026-09-19T16:05:14.847Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833914798-442",
+    "timestamp": "2026-09-19T16:05:14.798Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789833914665-180",
+    "timestamp": "2026-09-19T16:05:14.665Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789833914466-191",
+    "timestamp": "2026-09-19T16:05:14.466Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV007",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE, EEE."
+  },
+  {
+    "id": "ACT-1789833914394-245",
+    "timestamp": "2026-09-19T16:05:14.394Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV007",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IoTWorks India - IoT Engineer"
+  },
+  {
+    "id": "ACT-1789833914150-616",
+    "timestamp": "2026-09-19T16:05:14.150Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789833913915-246",
+    "timestamp": "2026-09-19T16:05:13.915Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789833913883-144",
+    "timestamp": "2026-09-19T16:05:13.883Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789833913593-947",
+    "timestamp": "2026-09-19T16:05:13.593Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789833913500-536",
+    "timestamp": "2026-09-19T16:05:13.500Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV014",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833913449-189",
+    "timestamp": "2026-09-19T16:05:13.449Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV014",
+    "result": "SUCCESS",
+    "details": "Viewed JD for RoboMotion Labs - Robotics Engineer"
+  },
+  {
+    "id": "ACT-1789833913212-848",
+    "timestamp": "2026-09-19T16:05:13.213Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789833913194-883",
+    "timestamp": "2026-09-19T16:05:13.194Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV015",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 8.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833913103-994",
+    "timestamp": "2026-09-19T16:05:13.103Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV015",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IndustryNext Technologies - Industrial AI Engineer"
+  },
+  {
+    "id": "ACT-1789833912527-600",
+    "timestamp": "2026-09-19T16:05:12.527Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833912493-989",
+    "timestamp": "2026-09-19T16:05:12.493Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789833911806-907",
+    "timestamp": "2026-09-19T16:05:11.806Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789833911732-807",
+    "timestamp": "2026-09-19T16:05:11.732Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789833911514-373",
+    "timestamp": "2026-09-19T16:05:11.514Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789833911150-516",
+    "timestamp": "2026-09-19T16:05:11.150Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789833910960-74",
+    "timestamp": "2026-09-19T16:05:10.960Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV015",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 8.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833910850-986",
+    "timestamp": "2026-09-19T16:05:10.850Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV015",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IndustryNext Technologies - Industrial AI Engineer"
+  },
+  {
+    "id": "ACT-1789833909622-698",
+    "timestamp": "2026-09-19T16:05:09.622Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789833909383-463",
+    "timestamp": "2026-09-19T16:05:09.383Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789833905089-700",
+    "timestamp": "2026-09-19T16:05:05.089Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV007",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE, EEE."
+  },
+  {
+    "id": "ACT-1789833905062-7",
+    "timestamp": "2026-09-19T16:05:05.062Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV007",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IoTWorks India - IoT Engineer"
+  },
+  {
+    "id": "ACT-1789833904360-409",
+    "timestamp": "2026-09-19T16:05:04.360Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV014",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833904345-533",
+    "timestamp": "2026-09-19T16:05:04.345Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV014",
+    "result": "SUCCESS",
+    "details": "Viewed JD for RoboMotion Labs - Robotics Engineer"
+  },
+  {
+    "id": "ACT-1789833903679-940",
+    "timestamp": "2026-09-19T16:05:03.679Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833903657-315",
+    "timestamp": "2026-09-19T16:05:03.657Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789833903002-223",
+    "timestamp": "2026-09-19T16:05:03.003Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789833902984-153",
+    "timestamp": "2026-09-19T16:05:02.984Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789833902328-286",
+    "timestamp": "2026-09-19T16:05:02.328Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV015",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 8.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833902299-703",
+    "timestamp": "2026-09-19T16:05:02.299Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV015",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IndustryNext Technologies - Industrial AI Engineer"
+  },
+  {
+    "id": "ACT-1789833901221-302",
+    "timestamp": "2026-09-19T16:05:01.221Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789833900845-618",
+    "timestamp": "2026-09-19T16:05:00.845Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789833713266-571",
+    "timestamp": "2026-09-19T16:01:53.266Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV015",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 8.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833713065-233",
+    "timestamp": "2026-09-19T16:01:53.065Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV015",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IndustryNext Technologies - Industrial AI Engineer"
+  },
+  {
+    "id": "ACT-1789833652323-317",
+    "timestamp": "2026-09-19T16:00:52.323Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV007",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE, EEE."
+  },
+  {
+    "id": "ACT-1789833652297-866",
+    "timestamp": "2026-09-19T16:00:52.297Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV007",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IoTWorks India - IoT Engineer"
+  },
+  {
+    "id": "ACT-1789833651644-200",
+    "timestamp": "2026-09-19T16:00:51.644Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV014",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833651617-982",
+    "timestamp": "2026-09-19T16:00:51.617Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV014",
+    "result": "SUCCESS",
+    "details": "Viewed JD for RoboMotion Labs - Robotics Engineer"
+  },
+  {
+    "id": "ACT-1789833650949-272",
+    "timestamp": "2026-09-19T16:00:50.949Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833650921-438",
+    "timestamp": "2026-09-19T16:00:50.921Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789833650247-134",
+    "timestamp": "2026-09-19T16:00:50.247Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789833650227-873",
+    "timestamp": "2026-09-19T16:00:50.227Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789833649538-71",
+    "timestamp": "2026-09-19T16:00:49.538Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV015",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 8.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833649490-649",
+    "timestamp": "2026-09-19T16:00:49.490Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV015",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IndustryNext Technologies - Industrial AI Engineer"
+  },
+  {
+    "id": "ACT-1789833648523-487",
+    "timestamp": "2026-09-19T16:00:48.523Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789833648172-302",
+    "timestamp": "2026-09-19T16:00:48.172Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789833615548-846",
+    "timestamp": "2026-09-19T16:00:15.548Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV007",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE, EEE."
+  },
+  {
+    "id": "ACT-1789833615291-912",
+    "timestamp": "2026-09-19T16:00:15.291Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV007",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IoTWorks India - IoT Engineer"
+  },
+  {
+    "id": "ACT-1789833614144-433",
+    "timestamp": "2026-09-19T16:00:14.144Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV014",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833613975-537",
+    "timestamp": "2026-09-19T16:00:13.975Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV014",
+    "result": "SUCCESS",
+    "details": "Viewed JD for RoboMotion Labs - Robotics Engineer"
+  },
+  {
+    "id": "ACT-1789833612855-224",
+    "timestamp": "2026-09-19T16:00:12.855Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833612734-938",
+    "timestamp": "2026-09-19T16:00:12.734Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789833611621-217",
+    "timestamp": "2026-09-19T16:00:11.621Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789833611456-400",
+    "timestamp": "2026-09-19T16:00:11.456Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789833610221-453",
+    "timestamp": "2026-09-19T16:00:10.221Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV015",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 8.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833610063-386",
+    "timestamp": "2026-09-19T16:00:10.063Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV015",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IndustryNext Technologies - Industrial AI Engineer"
+  },
+  {
+    "id": "ACT-1789833607610-829",
+    "timestamp": "2026-09-19T16:00:07.610Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789833605532-399",
+    "timestamp": "2026-09-19T16:00:05.532Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789833304843-632",
+    "timestamp": "2026-09-19T15:55:04.843Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV007",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE, EEE."
+  },
+  {
+    "id": "ACT-1789833304762-290",
+    "timestamp": "2026-09-19T15:55:04.762Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV007",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IoTWorks India - IoT Engineer"
+  },
+  {
+    "id": "ACT-1789833304055-671",
+    "timestamp": "2026-09-19T15:55:04.055Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV014",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833304021-432",
+    "timestamp": "2026-09-19T15:55:04.021Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV014",
+    "result": "SUCCESS",
+    "details": "Viewed JD for RoboMotion Labs - Robotics Engineer"
+  },
+  {
+    "id": "ACT-1789833303351-764",
+    "timestamp": "2026-09-19T15:55:03.351Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833303310-377",
+    "timestamp": "2026-09-19T15:55:03.310Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789833302965-388",
+    "timestamp": "2026-09-19T15:55:02.965Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV007",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE, EEE."
+  },
+  {
+    "id": "ACT-1789833302920-236",
+    "timestamp": "2026-09-19T15:55:02.920Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV007",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IoTWorks India - IoT Engineer"
+  },
+  {
+    "id": "ACT-1789833302619-50",
+    "timestamp": "2026-09-19T15:55:02.619Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789833302602-195",
+    "timestamp": "2026-09-19T15:55:02.602Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789833302220-802",
+    "timestamp": "2026-09-19T15:55:02.220Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV014",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833302192-935",
+    "timestamp": "2026-09-19T15:55:02.192Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV014",
+    "result": "SUCCESS",
+    "details": "Viewed JD for RoboMotion Labs - Robotics Engineer"
+  },
+  {
+    "id": "ACT-1789833301931-283",
+    "timestamp": "2026-09-19T15:55:01.931Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV015",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 8.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833301863-790",
+    "timestamp": "2026-09-19T15:55:01.863Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV015",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IndustryNext Technologies - Industrial AI Engineer"
+  },
+  {
+    "id": "ACT-1789833301522-717",
+    "timestamp": "2026-09-19T15:55:01.522Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833301453-183",
+    "timestamp": "2026-09-19T15:55:01.453Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789833300909-736",
+    "timestamp": "2026-09-19T15:55:00.909Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV007",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE, EEE."
+  },
+  {
+    "id": "ACT-1789833300873-413",
+    "timestamp": "2026-09-19T15:55:00.873Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV007",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IoTWorks India - IoT Engineer"
+  },
+  {
+    "id": "ACT-1789833300709-671",
+    "timestamp": "2026-09-19T15:55:00.709Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789833300671-688",
+    "timestamp": "2026-09-19T15:55:00.671Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789833300405-752",
+    "timestamp": "2026-09-19T15:55:00.405Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789833300172-925",
+    "timestamp": "2026-09-19T15:55:00.172Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789833300153-409",
+    "timestamp": "2026-09-19T15:55:00.153Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV014",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833300124-465",
+    "timestamp": "2026-09-19T15:55:00.124Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV014",
+    "result": "SUCCESS",
+    "details": "Viewed JD for RoboMotion Labs - Robotics Engineer"
+  },
+  {
+    "id": "ACT-1789833299958-931",
+    "timestamp": "2026-09-19T15:54:59.958Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV015",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 8.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833299896-703",
+    "timestamp": "2026-09-19T15:54:59.896Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV015",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IndustryNext Technologies - Industrial AI Engineer"
+  },
+  {
+    "id": "ACT-1789833299259-790",
+    "timestamp": "2026-09-19T15:54:59.259Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833299141-535",
+    "timestamp": "2026-09-19T15:54:59.141Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789833298306-520",
+    "timestamp": "2026-09-19T15:54:58.306Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789833298278-541",
+    "timestamp": "2026-09-19T15:54:58.278Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789833298248-918",
+    "timestamp": "2026-09-19T15:54:58.248Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789833297770-848",
+    "timestamp": "2026-09-19T15:54:57.770Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789833297429-742",
+    "timestamp": "2026-09-19T15:54:57.429Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV015",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 8.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833297411-416",
+    "timestamp": "2026-09-19T15:54:57.411Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV015",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IndustryNext Technologies - Industrial AI Engineer"
+  },
+  {
+    "id": "ACT-1789833296243-158",
+    "timestamp": "2026-09-19T15:54:56.243Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789833295821-665",
+    "timestamp": "2026-09-19T15:54:55.821Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789833257409-800",
+    "timestamp": "2026-09-19T15:54:17.409Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV007",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE, EEE."
+  },
+  {
+    "id": "ACT-1789833257371-423",
+    "timestamp": "2026-09-19T15:54:17.371Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV007",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IoTWorks India - IoT Engineer"
+  },
+  {
+    "id": "ACT-1789833256672-852",
+    "timestamp": "2026-09-19T15:54:16.672Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV014",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833256650-429",
+    "timestamp": "2026-09-19T15:54:16.650Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV014",
+    "result": "SUCCESS",
+    "details": "Viewed JD for RoboMotion Labs - Robotics Engineer"
+  },
+  {
+    "id": "ACT-1789833255985-363",
+    "timestamp": "2026-09-19T15:54:15.985Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833255960-145",
+    "timestamp": "2026-09-19T15:54:15.960Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789833255302-397",
+    "timestamp": "2026-09-19T15:54:15.302Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789833255275-512",
+    "timestamp": "2026-09-19T15:54:15.275Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789833254576-606",
+    "timestamp": "2026-09-19T15:54:14.577Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV015",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 8.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833254501-377",
+    "timestamp": "2026-09-19T15:54:14.501Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV015",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IndustryNext Technologies - Industrial AI Engineer"
+  },
+  {
+    "id": "ACT-1789833253449-726",
+    "timestamp": "2026-09-19T15:54:13.449Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789833253201-339",
+    "timestamp": "2026-09-19T15:54:13.201Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789833233952-541",
+    "timestamp": "2026-09-19T15:53:53.952Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV007",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE, EEE."
+  },
+  {
+    "id": "ACT-1789833233856-274",
+    "timestamp": "2026-09-19T15:53:53.856Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV007",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IoTWorks India - IoT Engineer"
+  },
+  {
+    "id": "ACT-1789833232700-848",
+    "timestamp": "2026-09-19T15:53:52.700Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV014",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833232547-968",
+    "timestamp": "2026-09-19T15:53:52.547Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV014",
+    "result": "SUCCESS",
+    "details": "Viewed JD for RoboMotion Labs - Robotics Engineer"
+  },
+  {
+    "id": "ACT-1789833231502-417",
+    "timestamp": "2026-09-19T15:53:51.502Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833231336-422",
+    "timestamp": "2026-09-19T15:53:51.336Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789833230126-26",
+    "timestamp": "2026-09-19T15:53:50.126Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789833230020-16",
+    "timestamp": "2026-09-19T15:53:50.020Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789833228857-661",
+    "timestamp": "2026-09-19T15:53:48.857Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV015",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 8.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789833228698-30",
+    "timestamp": "2026-09-19T15:53:48.698Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV015",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IndustryNext Technologies - Industrial AI Engineer"
+  },
+  {
+    "id": "ACT-1789833227189-173",
+    "timestamp": "2026-09-19T15:53:47.189Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789833224629-391",
+    "timestamp": "2026-09-19T15:53:44.629Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789832942701-181",
+    "timestamp": "2026-09-19T15:49:02.701Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV014",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789832942654-408",
+    "timestamp": "2026-09-19T15:49:02.654Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV014",
+    "result": "SUCCESS",
+    "details": "Viewed JD for RoboMotion Labs - Robotics Engineer"
+  },
+  {
+    "id": "ACT-1789832938032-598",
+    "timestamp": "2026-09-19T15:48:58.032Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789832937955-521",
+    "timestamp": "2026-09-19T15:48:57.955Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789832927454-509",
+    "timestamp": "2026-09-19T15:48:47.455Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV015",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 8.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789832927401-370",
+    "timestamp": "2026-09-19T15:48:47.401Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV015",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IndustryNext Technologies - Industrial AI Engineer"
+  },
+  {
+    "id": "ACT-1789832907835-424",
+    "timestamp": "2026-09-19T15:48:27.835Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV007",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE, EEE."
+  },
+  {
+    "id": "ACT-1789832907810-769",
+    "timestamp": "2026-09-19T15:48:27.810Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV007",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IoTWorks India - IoT Engineer"
+  },
+  {
+    "id": "ACT-1789832907107-282",
+    "timestamp": "2026-09-19T15:48:27.107Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV014",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789832907067-341",
+    "timestamp": "2026-09-19T15:48:27.067Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV014",
+    "result": "SUCCESS",
+    "details": "Viewed JD for RoboMotion Labs - Robotics Engineer"
+  },
+  {
+    "id": "ACT-1789832906389-817",
+    "timestamp": "2026-09-19T15:48:26.389Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789832906368-914",
+    "timestamp": "2026-09-19T15:48:26.368Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789832905719-744",
+    "timestamp": "2026-09-19T15:48:25.719Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789832905688-777",
+    "timestamp": "2026-09-19T15:48:25.688Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789832904974-167",
+    "timestamp": "2026-09-19T15:48:24.974Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV015",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 8.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789832904941-927",
+    "timestamp": "2026-09-19T15:48:24.941Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV015",
+    "result": "SUCCESS",
+    "details": "Viewed JD for IndustryNext Technologies - Industrial AI Engineer"
+  },
+  {
+    "id": "ACT-1789832903831-957",
+    "timestamp": "2026-09-19T15:48:23.831Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789832903519-775",
+    "timestamp": "2026-09-19T15:48:23.519Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789832882886-385",
+    "timestamp": "2026-09-19T15:48:02.886Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV018",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Academic Year 'Final Year' is not eligible. Accepted: Pre-Final Year."
+  },
+  {
+    "id": "ACT-1789832882867-283",
+    "timestamp": "2026-09-19T15:48:02.867Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV018",
+    "result": "SUCCESS",
+    "details": "Viewed JD for NextGen Innovators - Summer Software Intern"
+  },
+  {
+    "id": "ACT-1789832882189-171",
+    "timestamp": "2026-09-19T15:48:02.189Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV002",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: You have already submitted an application for this drive on 19/9/2026 (Application ID: APP-2026-003). Duplicate applications are prohibited."
+  },
+  {
+    "id": "ACT-1789832882167-514",
+    "timestamp": "2026-09-19T15:48:02.167Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV002",
+    "result": "SUCCESS",
+    "details": "Viewed JD for CloudMatrix Labs - Backend Developer"
+  },
+  {
+    "id": "ACT-1789832881480-543",
+    "timestamp": "2026-09-19T15:48:01.480Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV004",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: You have already submitted an application for this drive on 19/9/2026 (Application ID: APP-2026-003). Duplicate applications are prohibited."
+  },
+  {
+    "id": "ACT-1789832881417-266",
+    "timestamp": "2026-09-19T15:48:01.417Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV004",
+    "result": "SUCCESS",
+    "details": "Viewed JD for AppVertex Technologies - Full Stack Developer"
+  },
+  {
+    "id": "ACT-1789832880309-953",
+    "timestamp": "2026-09-19T15:48:00.309Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789832879917-251",
+    "timestamp": "2026-09-19T15:47:59.917Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789832816766-453",
+    "timestamp": "2026-09-19T15:46:56.766Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV018",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Academic Year 'Final Year' is not eligible. Accepted: Pre-Final Year."
+  },
+  {
+    "id": "ACT-1789832816735-617",
+    "timestamp": "2026-09-19T15:46:56.735Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV018",
+    "result": "SUCCESS",
+    "details": "Viewed JD for NextGen Innovators - Summer Software Intern"
+  },
+  {
+    "id": "ACT-1789832816048-229",
+    "timestamp": "2026-09-19T15:46:56.049Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV002",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: You have already submitted an application for this drive on 19/9/2026 (Application ID: APP-2026-003). Duplicate applications are prohibited."
+  },
+  {
+    "id": "ACT-1789832816029-969",
+    "timestamp": "2026-09-19T15:46:56.029Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV002",
+    "result": "SUCCESS",
+    "details": "Viewed JD for CloudMatrix Labs - Backend Developer"
+  },
+  {
+    "id": "ACT-1789832815365-539",
+    "timestamp": "2026-09-19T15:46:55.365Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV004",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: You have already submitted an application for this drive on 19/9/2026 (Application ID: APP-2026-003). Duplicate applications are prohibited."
+  },
+  {
+    "id": "ACT-1789832815298-911",
+    "timestamp": "2026-09-19T15:46:55.298Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV004",
+    "result": "SUCCESS",
+    "details": "Viewed JD for AppVertex Technologies - Full Stack Developer"
+  },
+  {
+    "id": "ACT-1789832814170-739",
+    "timestamp": "2026-09-19T15:46:54.170Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789832813944-883",
+    "timestamp": "2026-09-19T15:46:53.945Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789832729303-417",
+    "timestamp": "2026-09-19T15:45:29.303Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV018",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Academic Year 'Final Year' is not eligible. Accepted: Pre-Final Year."
+  },
+  {
+    "id": "ACT-1789832729130-38",
+    "timestamp": "2026-09-19T15:45:29.130Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV018",
+    "result": "SUCCESS",
+    "details": "Viewed JD for NextGen Innovators - Summer Software Intern"
+  },
+  {
+    "id": "ACT-1789832727898-334",
+    "timestamp": "2026-09-19T15:45:27.899Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV002",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: You have already submitted an application for this drive on 19/9/2026 (Application ID: APP-2026-003). Duplicate applications are prohibited."
+  },
+  {
+    "id": "ACT-1789832727730-583",
+    "timestamp": "2026-09-19T15:45:27.730Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV002",
+    "result": "SUCCESS",
+    "details": "Viewed JD for CloudMatrix Labs - Backend Developer"
+  },
+  {
+    "id": "ACT-1789832726363-268",
+    "timestamp": "2026-09-19T15:45:26.363Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV004",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: You have already submitted an application for this drive on 19/9/2026 (Application ID: APP-2026-003). Duplicate applications are prohibited."
+  },
+  {
+    "id": "ACT-1789832726076-22",
+    "timestamp": "2026-09-19T15:45:26.077Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV004",
+    "result": "SUCCESS",
+    "details": "Viewed JD for AppVertex Technologies - Full Stack Developer"
+  },
+  {
+    "id": "ACT-1789832724048-480",
+    "timestamp": "2026-09-19T15:45:24.048Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789832721941-774",
+    "timestamp": "2026-09-19T15:45:21.941Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789832423437-216",
+    "timestamp": "2026-09-19T15:40:23.437Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV004",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: You have already submitted an application for this drive on 19/9/2026 (Application ID: APP-2026-003). Duplicate applications are prohibited."
+  },
+  {
+    "id": "ACT-1789832423273-383",
+    "timestamp": "2026-09-19T15:40:23.273Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV004",
+    "result": "SUCCESS",
+    "details": "Viewed JD for AppVertex Technologies - Full Stack Developer"
+  },
+  {
+    "id": "ACT-1789832408514-678",
+    "timestamp": "2026-09-19T15:40:08.514Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV018",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Academic Year 'Final Year' is not eligible. Accepted: Pre-Final Year."
+  },
+  {
+    "id": "ACT-1789832408478-438",
+    "timestamp": "2026-09-19T15:40:08.478Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV018",
+    "result": "SUCCESS",
+    "details": "Viewed JD for NextGen Innovators - Summer Software Intern"
+  },
+  {
+    "id": "ACT-1789832407823-521",
+    "timestamp": "2026-09-19T15:40:07.823Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV002",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: You have already submitted an application for this drive on 19/9/2026 (Application ID: APP-2026-003). Duplicate applications are prohibited."
+  },
+  {
+    "id": "ACT-1789832407807-619",
+    "timestamp": "2026-09-19T15:40:07.807Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV002",
+    "result": "SUCCESS",
+    "details": "Viewed JD for CloudMatrix Labs - Backend Developer"
+  },
+  {
+    "id": "ACT-1789832407134-203",
+    "timestamp": "2026-09-19T15:40:07.134Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV004",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: You have already submitted an application for this drive on 19/9/2026 (Application ID: APP-2026-003). Duplicate applications are prohibited."
+  },
+  {
+    "id": "ACT-1789832407103-225",
+    "timestamp": "2026-09-19T15:40:07.103Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV004",
+    "result": "SUCCESS",
+    "details": "Viewed JD for AppVertex Technologies - Full Stack Developer"
+  },
+  {
+    "id": "ACT-1789832406039-799",
+    "timestamp": "2026-09-19T15:40:06.039Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789832405589-913",
+    "timestamp": "2026-09-19T15:40:05.589Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789831967261-704",
+    "timestamp": "2026-09-19T15:32:47.261Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV020",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831967100-142",
+    "timestamp": "2026-09-19T15:32:47.100Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV020",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789810620032 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831966032-800",
+    "timestamp": "2026-09-19T15:32:46.032Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV021",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831965901-977",
+    "timestamp": "2026-09-19T15:32:45.901Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV021",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789810704562 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831964619-415",
+    "timestamp": "2026-09-19T15:32:44.619Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV022",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831964501-330",
+    "timestamp": "2026-09-19T15:32:44.501Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV022",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789817720106 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831962980-781",
+    "timestamp": "2026-09-19T15:32:42.980Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831962823-642",
+    "timestamp": "2026-09-19T15:32:42.823Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789831961259-553",
+    "timestamp": "2026-09-19T15:32:41.259Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV018",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Academic Year 'Final Year' is not eligible. Accepted: Pre-Final Year."
+  },
+  {
+    "id": "ACT-1789831961106-60",
+    "timestamp": "2026-09-19T15:32:41.106Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV018",
+    "result": "SUCCESS",
+    "details": "Viewed JD for NextGen Innovators - Summer Software Intern"
+  },
+  {
+    "id": "ACT-1789831959303-853",
+    "timestamp": "2026-09-19T15:32:39.303Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789831958009-411",
+    "timestamp": "2026-09-19T15:32:38.009Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789831897854-911",
+    "timestamp": "2026-09-19T15:31:37.854Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV020",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831897689-861",
+    "timestamp": "2026-09-19T15:31:37.689Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV020",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789810620032 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831896497-779",
+    "timestamp": "2026-09-19T15:31:36.497Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV021",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831896367-814",
+    "timestamp": "2026-09-19T15:31:36.367Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV021",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789810704562 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831895281-298",
+    "timestamp": "2026-09-19T15:31:35.282Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV022",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831895048-525",
+    "timestamp": "2026-09-19T15:31:35.048Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV022",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789817720106 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831893977-979",
+    "timestamp": "2026-09-19T15:31:33.977Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831893884-646",
+    "timestamp": "2026-09-19T15:31:33.884Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789831892729-956",
+    "timestamp": "2026-09-19T15:31:32.729Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV018",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Academic Year 'Final Year' is not eligible. Accepted: Pre-Final Year."
+  },
+  {
+    "id": "ACT-1789831892614-184",
+    "timestamp": "2026-09-19T15:31:32.614Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV018",
+    "result": "SUCCESS",
+    "details": "Viewed JD for NextGen Innovators - Summer Software Intern"
+  },
+  {
+    "id": "ACT-1789831890905-311",
+    "timestamp": "2026-09-19T15:31:30.905Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789831888335-238",
+    "timestamp": "2026-09-19T15:31:28.335Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789831717515-216",
+    "timestamp": "2026-09-19T15:28:37.515Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831717365-482",
+    "timestamp": "2026-09-19T15:28:37.365Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789831715679-379",
+    "timestamp": "2026-09-19T15:28:35.679Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789831618996-758",
+    "timestamp": "2026-09-19T15:26:58.996Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV020",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831618974-440",
+    "timestamp": "2026-09-19T15:26:58.974Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV020",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789810620032 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831618228-753",
+    "timestamp": "2026-09-19T15:26:58.228Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV021",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831618192-461",
+    "timestamp": "2026-09-19T15:26:58.192Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV021",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789810704562 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831617873-54",
+    "timestamp": "2026-09-19T15:26:57.873Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV020",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831617844-616",
+    "timestamp": "2026-09-19T15:26:57.844Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV020",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789810620032 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831617450-651",
+    "timestamp": "2026-09-19T15:26:57.450Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV020",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831617410-31",
+    "timestamp": "2026-09-19T15:26:57.410Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV020",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789810620032 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831617322-271",
+    "timestamp": "2026-09-19T15:26:57.322Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV022",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831617131-184",
+    "timestamp": "2026-09-19T15:26:57.131Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV022",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789817720106 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831616875-120",
+    "timestamp": "2026-09-19T15:26:56.875Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV021",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831616840-558",
+    "timestamp": "2026-09-19T15:26:56.840Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV021",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789810704562 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831616512-658",
+    "timestamp": "2026-09-19T15:26:56.512Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV021",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831616489-967",
+    "timestamp": "2026-09-19T15:26:56.489Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV021",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789810704562 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831616231-814",
+    "timestamp": "2026-09-19T15:26:56.231Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831616195-533",
+    "timestamp": "2026-09-19T15:26:56.195Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789831616127-792",
+    "timestamp": "2026-09-19T15:26:56.128Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV022",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831616049-29",
+    "timestamp": "2026-09-19T15:26:56.049Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV022",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789817720106 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831615778-205",
+    "timestamp": "2026-09-19T15:26:55.778Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV022",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831615699-697",
+    "timestamp": "2026-09-19T15:26:55.699Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV022",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789817720106 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831615265-490",
+    "timestamp": "2026-09-19T15:26:55.265Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV018",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Academic Year 'Final Year' is not eligible. Accepted: Pre-Final Year."
+  },
+  {
+    "id": "ACT-1789831615211-717",
+    "timestamp": "2026-09-19T15:26:55.211Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV018",
+    "result": "SUCCESS",
+    "details": "Viewed JD for NextGen Innovators - Summer Software Intern"
+  },
+  {
+    "id": "ACT-1789831615155-492",
+    "timestamp": "2026-09-19T15:26:55.155Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831615095-431",
+    "timestamp": "2026-09-19T15:26:55.095Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789831614758-904",
+    "timestamp": "2026-09-19T15:26:54.758Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831614677-750",
+    "timestamp": "2026-09-19T15:26:54.677Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789831614331-623",
+    "timestamp": "2026-09-19T15:26:54.331Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV018",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Academic Year 'Final Year' is not eligible. Accepted: Pre-Final Year."
+  },
+  {
+    "id": "ACT-1789831614262-721",
+    "timestamp": "2026-09-19T15:26:54.262Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV018",
+    "result": "SUCCESS",
+    "details": "Viewed JD for NextGen Innovators - Summer Software Intern"
+  },
+  {
+    "id": "ACT-1789831613664-843",
+    "timestamp": "2026-09-19T15:26:53.664Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV018",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Academic Year 'Final Year' is not eligible. Accepted: Pre-Final Year."
+  },
+  {
+    "id": "ACT-1789831613578-207",
+    "timestamp": "2026-09-19T15:26:53.578Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV018",
+    "result": "SUCCESS",
+    "details": "Viewed JD for NextGen Innovators - Summer Software Intern"
+  },
+  {
+    "id": "ACT-1789831613362-463",
+    "timestamp": "2026-09-19T15:26:53.364Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789831613249-791",
+    "timestamp": "2026-09-19T15:26:53.249Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV020",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831613216-794",
+    "timestamp": "2026-09-19T15:26:53.216Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV020",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789810620032 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831612828-771",
+    "timestamp": "2026-09-19T15:26:52.828Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789831612222-125",
+    "timestamp": "2026-09-19T15:26:52.222Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV021",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831612102-461",
+    "timestamp": "2026-09-19T15:26:52.102Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV021",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789810704562 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831611610-456",
+    "timestamp": "2026-09-19T15:26:51.610Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789831611098-70",
+    "timestamp": "2026-09-19T15:26:51.098Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789831610765-855",
+    "timestamp": "2026-09-19T15:26:50.765Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789831610534-826",
+    "timestamp": "2026-09-19T15:26:50.534Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV022",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831610484-601",
+    "timestamp": "2026-09-19T15:26:50.484Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV022",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789817720106 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831610191-856",
+    "timestamp": "2026-09-19T15:26:50.191Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789831609539-985",
+    "timestamp": "2026-09-19T15:26:49.539Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831609456-272",
+    "timestamp": "2026-09-19T15:26:49.456Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789831608375-56",
+    "timestamp": "2026-09-19T15:26:48.375Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV018",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Academic Year 'Final Year' is not eligible. Accepted: Pre-Final Year."
+  },
+  {
+    "id": "ACT-1789831608296-664",
+    "timestamp": "2026-09-19T15:26:48.296Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV018",
+    "result": "SUCCESS",
+    "details": "Viewed JD for NextGen Innovators - Summer Software Intern"
+  },
+  {
+    "id": "ACT-1789831606327-350",
+    "timestamp": "2026-09-19T15:26:46.327Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789831605975-90",
+    "timestamp": "2026-09-19T15:26:45.975Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789831497967-717",
+    "timestamp": "2026-09-19T15:24:57.967Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV020",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831497947-658",
+    "timestamp": "2026-09-19T15:24:57.947Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV020",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789810620032 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831497284-13",
+    "timestamp": "2026-09-19T15:24:57.284Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV021",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831497257-715",
+    "timestamp": "2026-09-19T15:24:57.257Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV021",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789810704562 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831496585-757",
+    "timestamp": "2026-09-19T15:24:56.585Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV022",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831496553-987",
+    "timestamp": "2026-09-19T15:24:56.553Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV022",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789817720106 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831495890-608",
+    "timestamp": "2026-09-19T15:24:55.890Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831495869-741",
+    "timestamp": "2026-09-19T15:24:55.869Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789831495189-740",
+    "timestamp": "2026-09-19T15:24:55.189Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV018",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Academic Year 'Final Year' is not eligible. Accepted: Pre-Final Year."
+  },
+  {
+    "id": "ACT-1789831495153-130",
+    "timestamp": "2026-09-19T15:24:55.153Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV018",
+    "result": "SUCCESS",
+    "details": "Viewed JD for NextGen Innovators - Summer Software Intern"
+  },
+  {
+    "id": "ACT-1789831493891-647",
+    "timestamp": "2026-09-19T15:24:53.891Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789831493583-44",
+    "timestamp": "2026-09-19T15:24:53.583Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789831402970-737",
+    "timestamp": "2026-09-19T15:23:22.970Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV020",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831402944-895",
+    "timestamp": "2026-09-19T15:23:22.944Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV020",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789810620032 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831402282-200",
+    "timestamp": "2026-09-19T15:23:22.282Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV021",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831402258-329",
+    "timestamp": "2026-09-19T15:23:22.258Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV021",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789810704562 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831401567-527",
+    "timestamp": "2026-09-19T15:23:21.567Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV022",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831401547-366",
+    "timestamp": "2026-09-19T15:23:21.547Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV022",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789817720106 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789831400873-589",
+    "timestamp": "2026-09-19T15:23:20.873Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789831400851-928",
+    "timestamp": "2026-09-19T15:23:20.851Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789831400180-864",
+    "timestamp": "2026-09-19T15:23:20.180Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV018",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Academic Year 'Final Year' is not eligible. Accepted: Pre-Final Year."
+  },
+  {
+    "id": "ACT-1789831400123-851",
+    "timestamp": "2026-09-19T15:23:20.123Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV018",
+    "result": "SUCCESS",
+    "details": "Viewed JD for NextGen Innovators - Summer Software Intern"
+  },
+  {
+    "id": "ACT-1789831399097-354",
+    "timestamp": "2026-09-19T15:23:19.097Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789831398535-963",
+    "timestamp": "2026-09-19T15:23:18.535Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789818952938-249",
+    "timestamp": "2026-09-19T11:55:52.938Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV004",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: You have already submitted an application for this drive on 19/9/2026 (Application ID: APP-2026-003). Duplicate applications are prohibited."
+  },
+  {
+    "id": "ACT-1789818952702-576",
+    "timestamp": "2026-09-19T11:55:52.702Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV004",
+    "result": "SUCCESS",
+    "details": "Viewed JD for AppVertex Technologies - Full Stack Developer"
+  },
+  {
+    "id": "ACT-1789818937090-719",
+    "timestamp": "2026-09-19T11:55:37.090Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789818936799-693",
+    "timestamp": "2026-09-19T11:55:36.799Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789817822449-680",
+    "timestamp": "2026-09-19T11:37:02.449Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789817822407-345",
+    "timestamp": "2026-09-19T11:37:02.407Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789817820782-94",
+    "timestamp": "2026-09-19T11:37:00.782Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789817820674-254",
+    "timestamp": "2026-09-19T11:37:00.674Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789817758939-665",
+    "timestamp": "2026-09-19T11:35:58.939Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789817757131-510",
+    "timestamp": "2026-09-19T11:35:57.131Z",
+    "agent": "INVALID_ID",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "FAILED",
+    "details": "Invalid credentials"
+  },
+  {
+    "id": "ACT-1789817754256-371",
+    "timestamp": "2026-09-19T11:35:54.256Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789817754077-268",
+    "timestamp": "2026-09-19T11:35:54.077Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789817753596-434",
+    "timestamp": "2026-09-19T11:35:53.596Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789817752172-298",
+    "timestamp": "2026-09-19T11:35:52.172Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789817750761-621",
+    "timestamp": "2026-09-19T11:35:50.761Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789817749162-535",
+    "timestamp": "2026-09-19T11:35:49.162Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789817747698-965",
+    "timestamp": "2026-09-19T11:35:47.698Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV018",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Academic Year 'Final Year' is not eligible. Accepted: Pre-Final Year."
+  },
+  {
+    "id": "ACT-1789817747631-586",
+    "timestamp": "2026-09-19T11:35:47.631Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV018",
+    "result": "SUCCESS",
+    "details": "Viewed JD for NextGen Innovators - Summer Software Intern"
+  },
+  {
+    "id": "ACT-1789817746095-606",
+    "timestamp": "2026-09-19T11:35:46.095Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV017",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Drive status is EXPIRED (Only OPEN drives accept applications). Application deadline expired on 1/1/2026."
+  },
+  {
+    "id": "ACT-1789817746006-730",
+    "timestamp": "2026-09-19T11:35:46.006Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV017",
+    "result": "SUCCESS",
+    "details": "Viewed JD for LegacyCore Networks - Systems Engineer"
+  },
+  {
+    "id": "ACT-1789817744538-73",
+    "timestamp": "2026-09-19T11:35:44.538Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789817744474-374",
+    "timestamp": "2026-09-19T11:35:44.474Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789817743036-173",
+    "timestamp": "2026-09-19T11:35:43.036Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV005",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE."
+  },
+  {
+    "id": "ACT-1789817742956-664",
+    "timestamp": "2026-09-19T11:35:42.957Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV005",
+    "result": "SUCCESS",
+    "details": "Viewed JD for SignalCore Technologies - Embedded Systems Engineer"
+  },
+  {
+    "id": "ACT-1789817741008-16",
+    "timestamp": "2026-09-19T11:35:41.008Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789817740930-93",
+    "timestamp": "2026-09-19T11:35:40.930Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789817729246-788",
+    "timestamp": "2026-09-19T11:35:29.246Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789817729203-729",
+    "timestamp": "2026-09-19T11:35:29.203Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789817727837-171",
+    "timestamp": "2026-09-19T11:35:27.837Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789817727758-501",
+    "timestamp": "2026-09-19T11:35:27.758Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789817724484-212",
+    "timestamp": "2026-09-19T11:35:24.484Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV004",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: You have already submitted an application for this drive on 19/9/2026 (Application ID: APP-2026-003). Duplicate applications are prohibited."
+  },
+  {
+    "id": "ACT-1789817724450-365",
+    "timestamp": "2026-09-19T11:35:24.450Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV004",
+    "result": "SUCCESS",
+    "details": "Viewed JD for AppVertex Technologies - Full Stack Developer"
+  },
+  {
+    "id": "ACT-1789817724353-132",
+    "timestamp": "2026-09-19T11:35:24.353Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_APPLICATIONS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Viewed 3 application records"
+  },
+  {
+    "id": "ACT-1789817723658-3",
+    "timestamp": "2026-09-19T11:35:23.658Z",
+    "agent": "AU2027CSE001",
+    "action": "SUBMIT_APPLICATION",
+    "jobId": "DRV004",
+    "result": "SUCCESS",
+    "details": "Application APP-2026-003 submitted for AppVertex Technologies"
+  },
+  {
+    "id": "ACT-1789817723038-626",
+    "timestamp": "2026-09-19T11:35:23.038Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV004",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789817722944-649",
+    "timestamp": "2026-09-19T11:35:22.945Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV004",
+    "result": "SUCCESS",
+    "details": "Viewed JD for AppVertex Technologies - Full Stack Developer"
+  },
+  {
+    "id": "ACT-1789817721209-72",
+    "timestamp": "2026-09-19T11:35:21.209Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789817720927-0",
+    "timestamp": "2026-09-19T11:35:20.927Z",
+    "agent": "ADMIN",
+    "action": "CREATE_JOB",
+    "jobId": "DRV022",
+    "result": "SUCCESS",
+    "details": "Created new drive: DynamicRobo_1789817720106 (Quantum Firmware Architect)"
+  },
+  {
+    "id": "ACT-1789817718503-481",
+    "timestamp": "2026-09-19T11:35:18.503Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV014",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789817718435-75",
+    "timestamp": "2026-09-19T11:35:18.436Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV014",
+    "result": "SUCCESS",
+    "details": "Viewed JD for RoboMotion Labs - Robotics Engineer"
+  },
+  {
+    "id": "ACT-1789817717143-640",
+    "timestamp": "2026-09-19T11:35:17.143Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV005",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE."
+  },
+  {
+    "id": "ACT-1789817717070-577",
+    "timestamp": "2026-09-19T11:35:17.070Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV005",
+    "result": "SUCCESS",
+    "details": "Viewed JD for SignalCore Technologies - Embedded Systems Engineer"
+  },
+  {
+    "id": "ACT-1789817715639-975",
+    "timestamp": "2026-09-19T11:35:15.639Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789817715567-522",
+    "timestamp": "2026-09-19T11:35:15.567Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789817713288-497",
+    "timestamp": "2026-09-19T11:35:13.288Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789817713147-262",
+    "timestamp": "2026-09-19T11:35:13.147Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789817676192-676",
+    "timestamp": "2026-09-19T11:34:36.192Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789817676131-924",
+    "timestamp": "2026-09-19T11:34:36.132Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789817675362-180",
+    "timestamp": "2026-09-19T11:34:35.362Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789817673809-745",
+    "timestamp": "2026-09-19T11:34:33.809Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789817672344-259",
+    "timestamp": "2026-09-19T11:34:32.344Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789817670028-542",
+    "timestamp": "2026-09-19T11:34:30.028Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789817065991-264",
+    "timestamp": "2026-09-19T11:24:25.991Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789817065949-683",
+    "timestamp": "2026-09-19T11:24:25.949Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789817064344-62",
+    "timestamp": "2026-09-19T11:24:24.344Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789817064270-816",
+    "timestamp": "2026-09-19T11:24:24.270Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789817063275-185",
+    "timestamp": "2026-09-19T11:24:23.275Z",
+    "agent": "AU2028CSE003",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789816843666-16",
+    "timestamp": "2026-09-19T11:20:43.666Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789816843571-617",
+    "timestamp": "2026-09-19T11:20:43.571Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789816842882-115",
+    "timestamp": "2026-09-19T11:20:42.882Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789816840754-484",
+    "timestamp": "2026-09-19T11:20:40.754Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789816838672-325",
+    "timestamp": "2026-09-19T11:20:38.672Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789816836342-490",
+    "timestamp": "2026-09-19T11:20:36.342Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789816823726-524",
+    "timestamp": "2026-09-19T11:20:23.726Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789816823689-293",
+    "timestamp": "2026-09-19T11:20:23.689Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789816822083-309",
+    "timestamp": "2026-09-19T11:20:22.083Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789816821868-866",
+    "timestamp": "2026-09-19T11:20:21.868Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789816731552-699",
+    "timestamp": "2026-09-19T11:18:51.552Z",
+    "agent": "AU2028CSE003",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789816713443-160",
+    "timestamp": "2026-09-19T11:18:33.443Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789816713256-659",
+    "timestamp": "2026-09-19T11:18:33.256Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789815804007-28",
+    "timestamp": "2026-09-19T11:03:24.007Z",
+    "agent": "AU2028CSE003",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789815791939-517",
+    "timestamp": "2026-09-19T11:03:11.939Z",
+    "agent": "AU2028CSE003",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Karthik V logged in"
+  },
+  {
+    "id": "ACT-1789814074877-731",
+    "timestamp": "2026-09-19T10:34:34.877Z",
+    "agent": "AU2027CSE001",
+    "action": "SUBMIT_APPLICATION",
+    "jobId": "DRV002",
+    "result": "SUCCESS",
+    "details": "Application APP-2026-003 submitted for CloudMatrix Labs"
+  },
+  {
+    "id": "ACT-1789814068693-819",
+    "timestamp": "2026-09-19T10:34:28.693Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV002",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 8.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789814068184-368",
+    "timestamp": "2026-09-19T10:34:28.184Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV002",
+    "result": "SUCCESS",
+    "details": "Viewed JD for CloudMatrix Labs - Backend Developer"
+  },
+  {
+    "id": "ACT-1789814030421-899",
+    "timestamp": "2026-09-19T10:33:50.421Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789813966503-98",
+    "timestamp": "2026-09-19T10:32:46.503Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789813740300-103",
+    "timestamp": "2026-09-19T10:29:00.300Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789813740171-931",
+    "timestamp": "2026-09-19T10:29:00.171Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789813739744-295",
+    "timestamp": "2026-09-19T10:28:59.744Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789813737439-611",
+    "timestamp": "2026-09-19T10:28:57.439Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789813735957-45",
+    "timestamp": "2026-09-19T10:28:55.957Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789813734064-451",
+    "timestamp": "2026-09-19T10:28:54.064Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789813506672-235",
+    "timestamp": "2026-09-19T10:25:06.672Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV021",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.00, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789813505627-957",
+    "timestamp": "2026-09-19T10:25:05.627Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV021",
+    "result": "SUCCESS",
+    "details": "Viewed JD for DynamicRobo_1789810704562 - Quantum Firmware Architect"
+  },
+  {
+    "id": "ACT-1789813486816-50",
+    "timestamp": "2026-09-19T10:24:46.816Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789813485528-316",
+    "timestamp": "2026-09-19T10:24:45.528Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789813485292-975",
+    "timestamp": "2026-09-19T10:24:45.292Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789813484956-695",
+    "timestamp": "2026-09-19T10:24:44.956Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789813484886-9",
+    "timestamp": "2026-09-19T10:24:44.886Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789811582307-761",
+    "timestamp": "2026-09-19T09:53:02.307Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789811580705-356",
+    "timestamp": "2026-09-19T09:53:00.705Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789810725113-895",
+    "timestamp": "2026-09-19T09:38:45.113Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789810723938-720",
+    "timestamp": "2026-09-19T09:38:43.938Z",
+    "agent": "INVALID_ID",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "FAILED",
+    "details": "Invalid credentials"
+  },
+  {
+    "id": "ACT-1789810721164-94",
+    "timestamp": "2026-09-19T09:38:41.164Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789810721032-0",
+    "timestamp": "2026-09-19T09:38:41.032Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789810720659-571",
+    "timestamp": "2026-09-19T09:38:40.659Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789810719316-923",
+    "timestamp": "2026-09-19T09:38:39.316Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789810717939-654",
+    "timestamp": "2026-09-19T09:38:37.939Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789810716639-866",
+    "timestamp": "2026-09-19T09:38:36.639Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789810715263-293",
+    "timestamp": "2026-09-19T09:38:35.263Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV018",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Academic Year 'Final Year' is not eligible. Accepted: Pre-Final Year."
+  },
+  {
+    "id": "ACT-1789810715200-782",
+    "timestamp": "2026-09-19T09:38:35.200Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV018",
+    "result": "SUCCESS",
+    "details": "Viewed JD for NextGen Innovators - Summer Software Intern"
+  },
+  {
+    "id": "ACT-1789810713757-557",
+    "timestamp": "2026-09-19T09:38:33.757Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV017",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Drive status is EXPIRED (Only OPEN drives accept applications). Application deadline expired on 1/1/2026."
+  },
+  {
+    "id": "ACT-1789810713690-281",
+    "timestamp": "2026-09-19T09:38:33.690Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV017",
+    "result": "SUCCESS",
+    "details": "Viewed JD for LegacyCore Networks - Systems Engineer"
+  },
+  {
+    "id": "ACT-1789810712316-131",
+    "timestamp": "2026-09-19T09:38:32.316Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789810712250-447",
+    "timestamp": "2026-09-19T09:38:32.250Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789810710814-900",
+    "timestamp": "2026-09-19T09:38:30.814Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV005",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE."
+  },
+  {
+    "id": "ACT-1789810710752-126",
+    "timestamp": "2026-09-19T09:38:30.752Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV005",
+    "result": "SUCCESS",
+    "details": "Viewed JD for SignalCore Technologies - Embedded Systems Engineer"
+  },
+  {
+    "id": "ACT-1789810709293-609",
+    "timestamp": "2026-09-19T09:38:29.293Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789810709234-551",
+    "timestamp": "2026-09-19T09:38:29.234Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789810708094-879",
+    "timestamp": "2026-09-19T09:38:28.094Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV004",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: You have already submitted an application for this drive on 19/9/2026 (Application ID: APP-2026-002). Duplicate applications are prohibited."
+  },
+  {
+    "id": "ACT-1789810708061-840",
+    "timestamp": "2026-09-19T09:38:28.061Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV004",
+    "result": "SUCCESS",
+    "details": "Viewed JD for AppVertex Technologies - Full Stack Developer"
+  },
+  {
+    "id": "ACT-1789810707961-268",
+    "timestamp": "2026-09-19T09:38:27.961Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_APPLICATIONS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Viewed 2 application records"
+  },
+  {
+    "id": "ACT-1789810707350-54",
+    "timestamp": "2026-09-19T09:38:27.350Z",
+    "agent": "AU2027CSE001",
+    "action": "SUBMIT_APPLICATION",
+    "jobId": "DRV004",
+    "result": "SUCCESS",
+    "details": "Application APP-2026-002 submitted for AppVertex Technologies"
+  },
+  {
+    "id": "ACT-1789810706822-11",
+    "timestamp": "2026-09-19T09:38:26.822Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV004",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789810706751-723",
+    "timestamp": "2026-09-19T09:38:26.751Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV004",
+    "result": "SUCCESS",
+    "details": "Viewed JD for AppVertex Technologies - Full Stack Developer"
+  },
+  {
+    "id": "ACT-1789810705386-260",
+    "timestamp": "2026-09-19T09:38:25.386Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789810705227-554",
+    "timestamp": "2026-09-19T09:38:25.227Z",
+    "agent": "ADMIN",
+    "action": "CREATE_JOB",
+    "jobId": "DRV021",
+    "result": "SUCCESS",
+    "details": "Created new drive: DynamicRobo_1789810704562 (Quantum Firmware Architect)"
+  },
+  {
+    "id": "ACT-1789810702798-266",
+    "timestamp": "2026-09-19T09:38:22.798Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV014",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789810702729-752",
+    "timestamp": "2026-09-19T09:38:22.729Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV014",
+    "result": "SUCCESS",
+    "details": "Viewed JD for RoboMotion Labs - Robotics Engineer"
+  },
+  {
+    "id": "ACT-1789810701132-523",
+    "timestamp": "2026-09-19T09:38:21.132Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV005",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE."
+  },
+  {
+    "id": "ACT-1789810701043-488",
+    "timestamp": "2026-09-19T09:38:21.043Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV005",
+    "result": "SUCCESS",
+    "details": "Viewed JD for SignalCore Technologies - Embedded Systems Engineer"
+  },
+  {
+    "id": "ACT-1789810699452-320",
+    "timestamp": "2026-09-19T09:38:19.452Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789810699375-877",
+    "timestamp": "2026-09-19T09:38:19.375Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789810697341-658",
+    "timestamp": "2026-09-19T09:38:17.341Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789810697253-766",
+    "timestamp": "2026-09-19T09:38:17.253Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789810651989-338",
+    "timestamp": "2026-09-19T09:37:31.989Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789810650455-941",
+    "timestamp": "2026-09-19T09:37:30.455Z",
+    "agent": "INVALID_ID",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "FAILED",
+    "details": "Invalid credentials"
+  },
+  {
+    "id": "ACT-1789810646779-954",
+    "timestamp": "2026-09-19T09:37:26.779Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789810646680-84",
+    "timestamp": "2026-09-19T09:37:26.680Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789810646309-190",
+    "timestamp": "2026-09-19T09:37:26.309Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789810644660-972",
+    "timestamp": "2026-09-19T09:37:24.660Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789810643141-565",
+    "timestamp": "2026-09-19T09:37:23.141Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789810641191-546",
+    "timestamp": "2026-09-19T09:37:21.191Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789810639766-777",
+    "timestamp": "2026-09-19T09:37:19.766Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV018",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Academic Year 'Final Year' is not eligible. Accepted: Pre-Final Year."
+  },
+  {
+    "id": "ACT-1789810639698-252",
+    "timestamp": "2026-09-19T09:37:19.698Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV018",
+    "result": "SUCCESS",
+    "details": "Viewed JD for NextGen Innovators - Summer Software Intern"
+  },
+  {
+    "id": "ACT-1789810638228-538",
+    "timestamp": "2026-09-19T09:37:18.229Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV017",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Drive status is EXPIRED (Only OPEN drives accept applications). Application deadline expired on 1/1/2026."
+  },
+  {
+    "id": "ACT-1789810638158-953",
+    "timestamp": "2026-09-19T09:37:18.158Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV017",
+    "result": "SUCCESS",
+    "details": "Viewed JD for LegacyCore Networks - Systems Engineer"
+  },
+  {
+    "id": "ACT-1789810636693-87",
+    "timestamp": "2026-09-19T09:37:16.693Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789810636625-203",
+    "timestamp": "2026-09-19T09:37:16.625Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789810635127-394",
+    "timestamp": "2026-09-19T09:37:15.127Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV005",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE."
+  },
+  {
+    "id": "ACT-1789810635065-675",
+    "timestamp": "2026-09-19T09:37:15.065Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV005",
+    "result": "SUCCESS",
+    "details": "Viewed JD for SignalCore Technologies - Embedded Systems Engineer"
+  },
+  {
+    "id": "ACT-1789810633173-921",
+    "timestamp": "2026-09-19T09:37:13.173Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789810633108-582",
+    "timestamp": "2026-09-19T09:37:13.108Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789810622184-111",
+    "timestamp": "2026-09-19T09:37:02.184Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV004",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: You have already submitted an application for this drive on 19/9/2026 (Application ID: APP-2026-002). Duplicate applications are prohibited."
+  },
+  {
+    "id": "ACT-1789810622119-663",
+    "timestamp": "2026-09-19T09:37:02.119Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV004",
+    "result": "SUCCESS",
+    "details": "Viewed JD for AppVertex Technologies - Full Stack Developer"
+  },
+  {
+    "id": "ACT-1789810620814-781",
+    "timestamp": "2026-09-19T09:37:00.814Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789810620625-213",
+    "timestamp": "2026-09-19T09:37:00.625Z",
+    "agent": "ADMIN",
+    "action": "CREATE_JOB",
+    "jobId": "DRV020",
+    "result": "SUCCESS",
+    "details": "Created new drive: DynamicRobo_1789810620032 (Quantum Firmware Architect)"
+  },
+  {
+    "id": "ACT-1789810618317-311",
+    "timestamp": "2026-09-19T09:36:58.317Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV014",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789810618252-42",
+    "timestamp": "2026-09-19T09:36:58.252Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV014",
+    "result": "SUCCESS",
+    "details": "Viewed JD for RoboMotion Labs - Robotics Engineer"
+  },
+  {
+    "id": "ACT-1789810616461-474",
+    "timestamp": "2026-09-19T09:36:56.461Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV005",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Branch 'CSE' is not eligible. Accepted branches: ECE."
+  },
+  {
+    "id": "ACT-1789810616391-620",
+    "timestamp": "2026-09-19T09:36:56.391Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV005",
+    "result": "SUCCESS",
+    "details": "Viewed JD for SignalCore Technologies - Embedded Systems Engineer"
+  },
+  {
+    "id": "ACT-1789810614615-383",
+    "timestamp": "2026-09-19T09:36:54.615Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV016",
+    "result": "INELIGIBLE",
+    "details": "Not Eligible: Minimum CGPA is 8.50 but student's CGPA is 8.36."
+  },
+  {
+    "id": "ACT-1789810614552-733",
+    "timestamp": "2026-09-19T09:36:54.552Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV016",
+    "result": "SUCCESS",
+    "details": "Viewed JD for QuantumLeap AI - AI Research Engineer"
+  },
+  {
+    "id": "ACT-1789810612539-379",
+    "timestamp": "2026-09-19T09:36:52.539Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789810612466-78",
+    "timestamp": "2026-09-19T09:36:52.466Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789810134535-664",
+    "timestamp": "2026-09-19T09:28:54.535Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789810134493-836",
+    "timestamp": "2026-09-19T09:28:54.493Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789810039949-283",
+    "timestamp": "2026-09-19T09:27:19.949Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789810019938-408",
+    "timestamp": "2026-09-19T09:26:59.938Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789810016265-810",
+    "timestamp": "2026-09-19T09:26:56.265Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_APPLICATIONS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Viewed 2 application records"
+  },
+  {
+    "id": "ACT-1789809986766-852",
+    "timestamp": "2026-09-19T09:26:26.766Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  },
+  {
+    "id": "ACT-1789809825903-248",
+    "timestamp": "2026-09-19T09:23:45.903Z",
+    "agent": "AU2027CSE001",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "User Arjun Kumar logged in"
+  },
+  {
+    "id": "ACT-1789809824584-759",
+    "timestamp": "2026-09-19T09:23:44.584Z",
+    "agent": "INVALID_ID",
+    "action": "LOGIN",
+    "jobId": null,
+    "result": "FAILED",
+    "details": "Invalid credentials"
+  },
+  {
+    "id": "ACT-1789809820930-419",
+    "timestamp": "2026-09-19T09:23:40.930Z",
+    "agent": "AU2027CSE001",
+    "action": "CHECK_ELIGIBILITY",
+    "jobId": "DRV001",
+    "result": "ELIGIBLE",
+    "details": "Eligible: CSE is accepted, Final Year is accepted, CGPA 8.36 >= 7.50, and backlogs 0 <= 0."
+  },
+  {
+    "id": "ACT-1789809820799-193",
+    "timestamp": "2026-09-19T09:23:40.799Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JD",
+    "jobId": "DRV001",
+    "result": "SUCCESS",
+    "details": "Viewed JD for TechNova Systems - Software Engineer"
+  },
+  {
+    "id": "ACT-1789809820371-836",
+    "timestamp": "2026-09-19T09:23:40.371Z",
+    "agent": "AU2027CSE001",
+    "action": "VIEW_JOBS",
+    "jobId": null,
+    "result": "SUCCESS",
+    "details": "Loaded placement drives catalog"
+  }
+]

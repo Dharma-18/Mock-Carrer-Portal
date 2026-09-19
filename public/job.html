@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Description | Anna University Placement Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .jd-header {
+      background: linear-gradient(135deg, rgba(19, 39, 66, 0.95) 0%, rgba(9, 20, 35, 0.95) 100%);
+      border: 1px solid var(--border-accent);
+      border-radius: var(--radius-lg);
+      padding: 2.25rem;
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      box-shadow: var(--shadow-lg);
+    }
+    .jd-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 2rem;
+    }
+    @media (max-width: 900px) {
+      .jd-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .spec-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 0.5rem;
+    }
+    .spec-table td {
+      padding: 0.65rem 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      font-size: 0.88rem;
+    }
+    .spec-table td:first-child {
+      color: var(--text-secondary);
+      width: 42%;
+      font-weight: 500;
+    }
+    .spec-table td:last-child {
+      color: #ffffff;
+      font-weight: 700;
+    }
+    .selection-step {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.75rem 1rem;
+      background: rgba(11, 24, 41, 0.6);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      margin-bottom: 0.5rem;
+    }
+    .step-number {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: rgba(230, 161, 0, 0.15);
+      border: 1px solid var(--border-accent);
+      color: var(--gold-400);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+      font-weight: 800;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="navbar-container"></div>
+
+  <main class="main-content">
+    <!-- Breadcrumb -->
+    <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.82rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+      <a href="/jobs" style="color: var(--gold-400);">← Back to All Drives</a>
+      <span>/</span>
+      <span id="breadcrumb-job-id" class="mono">DRV...</span>
+    </div>
+
+    <!-- Job Header Card -->
+    <section class="jd-header">
+      <div>
+        <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+          <span class="job-company" id="jd-company" style="font-size: 1rem;">Company Name</span>
+          <span class="job-id-tag" id="jd-id">DRV000</span>
+          <span id="jd-status-badge" class="badge badge-open">OPEN</span>
+        </div>
+        <h1 id="jd-role" style="font-size: 2.1rem; font-weight: 800; color: #fff; line-height: 1.2; margin-bottom: 0.75rem;">
+          Role Title
+        </h1>
+        <div style="display: flex; gap: 1.25rem; flex-wrap: wrap; font-size: 0.9rem; color: var(--text-secondary);">
+          <span>🏢 <strong id="jd-dept" style="color: #fff;">Department</strong></span>
+          <span>📍 <strong id="jd-location" style="color: #fff;">Location</strong></span>
+          <span>💼 <strong id="jd-mode" style="color: #fff;">Work Mode</strong></span>
+          <span>📅 Joining: <strong id="jd-joining" style="color: #fff;">July 2027</strong></span>
+        </div>
+      </div>
+
+      <!-- Quick Action / CTC Card -->
+      <div style="background: rgba(7, 13, 24, 0.8); border: 1px solid var(--border-accent); border-radius: var(--radius-md); padding: 1.25rem 1.75rem; text-align: right; min-width: 220px;">
+        <span style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-secondary); letter-spacing: 0.05em; display: block;">
+          Annual CTC Package
+        </span>
+        <span id="jd-ctc" style="font-size: 2rem; font-weight: 800; color: var(--gold-400); display: block; line-height: 1.2; margin: 0.25rem 0;">
+          -- LPA
+        </span>
+        <span id="jd-deadline-text" style="font-size: 0.78rem; color: var(--text-muted); display: block; margin-bottom: 0.85rem;">
+          Deadline: --
+        </span>
+        <button id="primary-apply-btn" class="btn btn-primary btn-sm" style="width: 100%;" onclick="openApplyModal()">
+          Apply for Drive
+        </button>
+      </div>
+    </section>
+
+    <!-- Success Banner if already applied or just submitted -->
+    <div id="application-success-banner" class="card" style="display: none; background: rgba(16, 185, 129, 0.12); border-color: var(--success-border); margin-bottom: 2rem;" data-testid="application-success">
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <div style="font-size: 2rem; color: var(--success);">✓</div>
+        <div>
+          <h3 style="font-size: 1.15rem; font-weight: 800; color: #fff;">Application Successfully Submitted!</h3>
+          <p style="font-size: 0.88rem; color: #a7f3d0;" id="success-banner-msg">
+            Your application for this campus recruitment drive has been recorded in the Anna University CUIC Placement database.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- DETERMINISTIC ELIGIBILITY BREAKDOWN PANEL (SPEC SECTION 3D, 6) -->
+    <section id="eligibility-card" class="eligibility-panel eligible">
+      <div class="eligibility-header">
+        <div>
+          <h2 style="font-size: 1.25rem; font-weight: 800; color: #fff;">Academic Eligibility Assessment</h2>
+          <p style="font-size: 0.82rem; color: var(--text-secondary);">
+            Automated evaluation based on Anna University Placement Guidelines
+          </p>
+        </div>
+        <div id="eligibility-badge" class="badge badge-eligible eligibility-status-badge" data-testid="eligibility-status">
+          ELIGIBLE
+        </div>
+      </div>
+
+      <!-- Natural language eligibility reason required by spec -->
+      <div style="background: rgba(0, 0, 0, 0.25); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-bottom: 1rem; font-size: 0.9rem; font-weight: 600;" id="eligibility-reason-summary" data-testid="eligibility-reason">
+        Checking deterministic eligibility...
+      </div>
+
+      <!-- Itemized Checklist of passed/failed criteria -->
+      <ul class="eligibility-reasons-list" id="eligibility-items-list">
+        <!-- populated dynamically -->
+      </ul>
+    </section>
+
+    <!-- Main Content Grid -->
+    <div class="jd-grid">
+      <!-- Left Column: Details, Responsibilities, Selection Process -->
+      <div style="display: flex; flex-direction: column; gap: 2rem;">
+        <!-- About Role & Responsibilities -->
+        <div class="card">
+          <h2 style="font-size: 1.25rem; font-weight: 800; color: #fff; margin-bottom: 1rem;">
+            About the Role & Responsibilities
+          </h2>
+          <p id="jd-desc" style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.25rem; line-height: 1.7;">
+            Description...
+          </p>
+
+          <h3 style="font-size: 0.95rem; font-weight: 700; color: #fff; margin-bottom: 0.75rem;">
+            Key Responsibilities
+          </h3>
+          <ul id="jd-responsibilities" style="padding-left: 1.25rem; color: var(--text-secondary); font-size: 0.9rem; line-height: 1.7;">
+            <!-- list items -->
+          </ul>
+        </div>
+
+        <!-- Skills & Competencies -->
+        <div class="card">
+          <h2 style="font-size: 1.25rem; font-weight: 800; color: #fff; margin-bottom: 1rem;">
+            Skills & Technical Competencies
+          </h2>
+          <div style="margin-bottom: 1.25rem;">
+            <span style="display: block; font-size: 0.8rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 0.5rem;">
+              Required Skills
+            </span>
+            <div id="jd-required-skills" style="display: flex; gap: 0.5rem; flex-wrap: wrap;"></div>
+          </div>
+          <div>
+            <span style="display: block; font-size: 0.8rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 0.5rem;">
+              Preferred / Good to Have Skills
+            </span>
+            <div id="jd-preferred-skills" style="display: flex; gap: 0.5rem; flex-wrap: wrap;"></div>
+          </div>
+        </div>
+
+        <!-- Selection Process Stages -->
+        <div class="card">
+          <h2 style="font-size: 1.25rem; font-weight: 800; color: #fff; margin-bottom: 1rem;">
+            Selection Process & Rounds
+          </h2>
+          <div id="jd-selection-rounds">
+            <!-- Rounds items -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Criteria Specifications & Perks -->
+      <div style="display: flex; flex-direction: column; gap: 2rem;">
+        <!-- Drive Specifications Table -->
+        <div class="card">
+          <h2 style="font-size: 1.15rem; font-weight: 800; color: #fff; margin-bottom: 1rem;">
+            Recruitment Criteria
+          </h2>
+          <table class="spec-table">
+            <tbody>
+              <tr>
+                <td>Eligible Branches</td>
+                <td id="spec-branches">CSE, IT</td>
+              </tr>
+              <tr>
+                <td>Academic Year</td>
+                <td id="spec-years">Final Year</td>
+              </tr>
+              <tr>
+                <td>Minimum CGPA</td>
+                <td id="spec-cgpa" style="color: var(--gold-400);">7.50</td>
+              </tr>
+              <tr>
+                <td>Max Backlogs</td>
+                <td id="spec-backlogs">0</td>
+              </tr>
+              <tr>
+                <td>10th Cutoff</td>
+                <td id="spec-10th">60.0%</td>
+              </tr>
+              <tr>
+                <td>12th / Diploma Cutoff</td>
+                <td id="spec-12th">60.0%</td>
+              </tr>
+              <tr>
+                <td>Service Bond</td>
+                <td id="spec-bond">None</td>
+              </tr>
+              <tr>
+                <td>Relocation</td>
+                <td id="spec-relocation">Yes</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Compensation Breakdown -->
+        <div class="card">
+          <h2 style="font-size: 1.15rem; font-weight: 800; color: #fff; margin-bottom: 1rem;">
+            Compensation & Benefits
+          </h2>
+          <table class="spec-table">
+            <tbody>
+              <tr>
+                <td>Total Cost to Company</td>
+                <td id="spec-ctc" style="color: var(--gold-400);">--</td>
+              </tr>
+              <tr>
+                <td>Base Salary</td>
+                <td id="spec-base">--</td>
+              </tr>
+              <tr>
+                <td>Joining Bonus</td>
+                <td id="spec-bonus">--</td>
+              </tr>
+            </tbody>
+          </table>
+          <div style="margin-top: 1rem;">
+            <span style="font-size: 0.78rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">Perks & Wellness</span>
+            <ul id="jd-perks" style="padding-left: 1.25rem; font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.5rem; line-height: 1.6;"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- APPLICATION CONFIRMATION MODAL -->
+  <div id="apply-modal" class="modal-backdrop">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h2 class="modal-title">Confirm Application</h2>
+        <button class="btn btn-secondary btn-sm" onclick="closeApplyModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <div style="background: rgba(11, 24, 41, 0.7); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); padding: 1.25rem; margin-bottom: 1.25rem;">
+          <h3 style="font-size: 1.15rem; font-weight: 800; color: #fff; margin-bottom: 0.35rem;">
+            Do you want to apply to this drive?
+          </h3>
+          <p style="font-size: 0.9rem; color: var(--gold-400); font-weight: 700;" id="modal-company-role">
+            Company — Role
+          </p>
+          <div style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.25rem;" id="modal-ctc">
+            Package: --
+          </div>
+        </div>
+
+        <div id="modal-error-box" class="alert-box alert-error" style="display: none; padding: 0.75rem; border-radius: 6px; font-size: 0.85rem; margin-bottom: 1rem;"></div>
+
+        <!-- Student Verification Read-Only Info -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 1.25rem; font-size: 0.85rem;">
+          <div>
+            <span style="color: var(--text-muted); display: block;">Applicant Name:</span>
+            <strong style="color: #fff;" id="modal-student-name">Arjun Kumar</strong>
+          </div>
+          <div>
+            <span style="color: var(--text-muted); display: block;">Roll / Student ID:</span>
+            <strong style="color: #fff;" id="modal-student-id">AU2027CSE001</strong>
+          </div>
+          <div>
+            <span style="color: var(--text-muted); display: block;">Branch:</span>
+            <strong style="color: #fff;" id="modal-student-branch">CSE</strong>
+          </div>
+          <div>
+            <span style="color: var(--text-muted); display: block;">CGPA:</span>
+            <strong style="color: #10b981;" id="modal-student-cgpa">8.36</strong>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Preferred Location</label>
+          <select id="apply-location-select" class="form-control" data-testid="apply-location">
+            <option value="Chennai">Chennai</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Hyderabad">Hyderabad</option>
+          </select>
+        </div>
+
+        <div class="form-group" style="display: none;">
+          <select id="apply-resume-select" class="form-control" data-testid="apply-resume">
+            <option value="Verified_Resume.pdf">Verified_Resume.pdf</option>
+          </select>
+          <input type="checkbox" id="apply-consent-checkbox" checked data-testid="apply-consent">
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary btn-sm" onclick="closeApplyModal()">Cancel</button>
+        <button class="btn btn-primary" id="confirm-submit-app-btn" data-testid="confirm-application" onclick="submitApplication()">
+          Yes, Apply Now
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer-container"></div>
+
+  <script src="/js/api.js"></script>
+  <script>
+    API.renderNavbar('jobs');
+    API.renderFooter();
+
+    let currentJob = null;
+    let currentEligibility = null;
+    const student = API.getCurrentUser();
+
+    // Extract Job ID from URL (e.g. /jobs/DRV001 or ?id=DRV001)
+    function getJobIdFromUrl() {
+      const urlParts = window.location.pathname.split('/');
+      const lastPart = urlParts[urlParts.length - 1];
+      if (lastPart && lastPart.toUpperCase().startsWith('DRV')) {
+        return lastPart.toUpperCase();
+      }
+      const params = new URLSearchParams(window.location.search);
+      return params.get('id') || 'DRV001';
+    }
+
+    async function loadJobDetails() {
+      const jobId = getJobIdFromUrl();
+      document.getElementById('breadcrumb-job-id').textContent = jobId;
+
+      try {
+        currentJob = await API.getJob(jobId, student ? student.id : null);
+        renderJobPage(currentJob);
+
+        if (student) {
+          currentEligibility = await API.getEligibility(student.id, jobId);
+          renderEligibilityPanel(currentEligibility);
+        }
+
+        // If URL has ?action=apply and student is eligible, automatically open modal
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('action') === 'apply' && currentEligibility && currentEligibility.eligible && !currentEligibility.alreadyApplied) {
+          openApplyModal();
+        }
+      } catch (err) {
+        console.error('Error loading JD:', err);
+        document.querySelector('.jd-header').innerHTML = `
+          <div style="color: var(--danger); padding: 2rem;">
+            Failed to load job description: ${err.message}
+          </div>
+        `;
+      }
+    }
+
+    function renderJobPage(job) {
+      document.title = `${job.role} - ${job.company} | Anna University Placement Portal`;
+      document.getElementById('jd-company').textContent = job.company;
+      document.getElementById('jd-id').textContent = job.id;
+      document.getElementById('jd-role').textContent = job.role;
+      document.getElementById('jd-dept').textContent = job.department || 'Engineering';
+      document.getElementById('jd-location').textContent = job.location;
+      document.getElementById('jd-mode').textContent = job.workMode;
+      document.getElementById('jd-joining').textContent = job.joiningDate || '2027-07-01';
+      document.getElementById('jd-ctc').textContent = job.ctc;
+      document.getElementById('jd-deadline-text').textContent = `Deadline: ${new Date(job.deadline).toLocaleDateString('en-IN')}`;
+
+      // Status badge
+      const statusBadge = document.getElementById('jd-status-badge');
+      const isExpired = job.status === 'EXPIRED' || new Date() > new Date(job.deadline);
+      if (isExpired) {
+        statusBadge.className = 'badge badge-expired';
+        statusBadge.textContent = 'EXPIRED';
+      } else {
+        statusBadge.className = 'badge badge-open';
+        statusBadge.textContent = job.status;
+      }
+
+      // Descriptions
+      document.getElementById('jd-desc').textContent = job.description;
+
+      const respList = document.getElementById('jd-responsibilities');
+      respList.innerHTML = (job.responsibilities || []).map(r => `<li>${r}</li>`).join('');
+
+      // Skills
+      const reqSkills = document.getElementById('jd-required-skills');
+      reqSkills.innerHTML = (job.skills || []).map(s => `
+        <span class="badge" style="background: rgba(230,161,0,0.12); color: var(--gold-400); border: 1px solid var(--border-accent); font-size: 0.8rem; padding: 0.3rem 0.65rem;">${s}</span>
+      `).join('');
+
+      const prefSkills = document.getElementById('jd-preferred-skills');
+      prefSkills.innerHTML = (job.preferredSkills || []).map(s => `
+        <span class="badge" style="background: rgba(255,255,255,0.06); color: var(--text-secondary); border: 1px solid var(--border-subtle); font-size: 0.8rem; padding: 0.3rem 0.65rem;">${s}</span>
+      `).join('');
+
+      // Selection Process
+      const roundsDiv = document.getElementById('jd-selection-rounds');
+      roundsDiv.innerHTML = (job.selectionProcess || []).map((round, idx) => `
+        <div class="selection-step">
+          <div class="step-number">${idx + 1}</div>
+          <span style="font-weight: 700; color: #fff;">${round}</span>
+        </div>
+      `).join('');
+
+      // Specifications table
+      document.getElementById('spec-branches').textContent = (job.branches || []).join(', ');
+      document.getElementById('spec-years').textContent = (job.academicYears || []).join(', ');
+      document.getElementById('spec-cgpa').textContent = parseFloat(job.minCgpa).toFixed(2);
+      document.getElementById('spec-backlogs').textContent = job.maxBacklogs;
+      document.getElementById('spec-10th').textContent = job.min10thPercentage ? `${job.min10thPercentage}%` : 'N/A';
+      document.getElementById('spec-12th').textContent = job.min12thPercentage ? `${job.min12thPercentage}%` : 'N/A';
+      document.getElementById('spec-bond').textContent = job.bond || 'None';
+      document.getElementById('spec-relocation').textContent = job.relocation || 'Yes';
+
+      // CTC breakdown
+      document.getElementById('spec-ctc').textContent = job.ctc;
+      document.getElementById('spec-base').textContent = job.basePay || job.ctc;
+      document.getElementById('spec-bonus').textContent = job.joiningBonus || 'None';
+
+      const perksList = document.getElementById('jd-perks');
+      perksList.innerHTML = (job.perks || ['Comprehensive Medical Insurance', 'Performance Bonus']).map(p => `<li>${p}</li>`).join('');
+    }
+
+    function renderEligibilityPanel(eligibility) {
+      const panel = document.getElementById('eligibility-card');
+      const badge = document.getElementById('eligibility-badge');
+      const summaryBox = document.getElementById('eligibility-reason-summary');
+      const itemsList = document.getElementById('eligibility-items-list');
+      const applyBtn = document.getElementById('primary-apply-btn');
+
+      if (eligibility.alreadyApplied) {
+        panel.className = 'eligibility-panel eligible';
+        badge.className = 'badge badge-applied eligibility-status-badge';
+        badge.textContent = 'ALREADY APPLIED';
+        summaryBox.textContent = `You submitted your application for this drive on ${new Date(eligibility.existingApplication.appliedAt).toLocaleDateString('en-IN')}.`;
+        applyBtn.disabled = true;
+        applyBtn.textContent = 'Already Applied';
+        applyBtn.style.opacity = '0.7';
+
+        document.getElementById('application-success-banner').style.display = 'block';
+        document.getElementById('success-banner-msg').textContent = `Application ID: ${eligibility.existingApplication.id}. Status: ${eligibility.existingApplication.status}.`;
+        return;
+      }
+
+      if (eligibility.eligible) {
+        panel.className = 'eligibility-panel eligible';
+        badge.className = 'badge badge-eligible eligibility-status-badge';
+        badge.textContent = 'ELIGIBLE';
+        summaryBox.textContent = eligibility.summary;
+        applyBtn.disabled = false;
+        applyBtn.textContent = 'Apply for Drive';
+      } else {
+        panel.className = 'eligibility-panel ineligible';
+        badge.className = 'badge badge-ineligible eligibility-status-badge';
+        badge.textContent = 'NOT ELIGIBLE';
+        summaryBox.textContent = eligibility.summary;
+        applyBtn.disabled = true;
+        applyBtn.textContent = 'Application Ineligible';
+        applyBtn.style.opacity = '0.5';
+      }
+
+      // Render Itemized breakdown
+      let html = '';
+      (eligibility.reasons || []).forEach(r => {
+        html += `<li class="eligibility-item passed"><span>✓</span><span>${r}</span></li>`;
+      });
+      (eligibility.failedCriteria || []).forEach(f => {
+        html += `<li class="eligibility-item failed"><span>✕</span><span>${f}</span></li>`;
+      });
+      itemsList.innerHTML = html;
+    }
+
+    function openApplyModal() {
+      if (!currentJob) return;
+      if (!currentEligibility || !currentEligibility.eligible) {
+        alert('You are not eligible to apply for this recruitment drive.');
+        return;
+      }
+
+      document.getElementById('modal-company-role').textContent = `${currentJob.company} — ${currentJob.role}`;
+      document.getElementById('modal-ctc').textContent = `Package: ${currentJob.ctc} (${currentJob.workMode} • ${currentJob.location})`;
+      document.getElementById('modal-student-name').textContent = student.name;
+      document.getElementById('modal-student-id').textContent = student.id;
+      document.getElementById('modal-student-branch').textContent = student.branch;
+      document.getElementById('modal-student-cgpa').textContent = (parseFloat(student.cgpa) || 0).toFixed(2);
+
+      document.getElementById('apply-modal').classList.add('active');
+    }
+
+    function closeApplyModal() {
+      document.getElementById('apply-modal').classList.remove('active');
+      document.getElementById('modal-error-box').style.display = 'none';
+    }
+
+    async function submitApplication() {
+      const consent = document.getElementById('apply-consent-checkbox').checked;
+      const errBox = document.getElementById('modal-error-box');
+      errBox.style.display = 'none';
+
+      if (!consent) {
+        errBox.textContent = 'You must confirm the consent checkbox before submitting.';
+        errBox.style.display = 'block';
+        return;
+      }
+
+      const submitBtn = document.getElementById('confirm-submit-app-btn');
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Submitting Application...';
+
+      const location = document.getElementById('apply-location-select').value;
+      const resume = document.getElementById('apply-resume-select').value;
+
+      try {
+        const result = await API.applyToDrive(student.id, currentJob.id, location, resume);
+        closeApplyModal();
+
+        // Reveal Success Banner
+        const successBanner = document.getElementById('application-success-banner');
+        successBanner.style.display = 'block';
+        document.getElementById('success-banner-msg').textContent = 
+          `Application ID: ${result.application.id}. Successfully submitted for ${currentJob.company} (${currentJob.role}).`;
+
+        // Update eligibility panel state
+        const badge = document.getElementById('eligibility-badge');
+        badge.className = 'badge badge-applied eligibility-status-badge';
+        badge.textContent = 'ALREADY APPLIED';
+
+        const applyBtn = document.getElementById('primary-apply-btn');
+        applyBtn.disabled = true;
+        applyBtn.textContent = 'Already Applied';
+        applyBtn.style.opacity = '0.7';
+
+        // Scroll to banner
+        successBanner.scrollIntoView({ behavior: 'smooth' });
+
+      } catch (err) {
+        console.error('Application failed:', err);
+        errBox.textContent = err.error || (err.failedCriteria ? err.failedCriteria.join('; ') : 'Application failed.');
+        errBox.style.display = 'block';
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Confirm & Submit Application';
+      }
+    }
+
+    loadJobDetails();
+  </script>
+</body>
+</html>

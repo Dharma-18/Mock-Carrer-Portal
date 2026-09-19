@@ -1,0 +1,79 @@
+[
+  {
+    "id": "APP-2026-003",
+    "jobId": "DRV004",
+    "studentId": "AU2027CSE001",
+    "studentName": "Arjun Kumar",
+    "jobTitle": "Full Stack Developer",
+    "company": "AppVertex Technologies",
+    "appliedAt": "2026-09-19T11:35:23.655Z",
+    "preferredLocation": "Chennai",
+    "resumeUrl": "Verified_Resume.pdf",
+    "status": "APPLIED",
+    "eligibilitySnapshot": {
+      "eligible": true,
+      "cgpa": 8.36,
+      "backlogs": 0,
+      "branch": "CSE",
+      "academicYear": "Final Year"
+    },
+    "history": [
+      {
+        "status": "APPLIED",
+        "timestamp": "2026-09-19T11:35:23.655Z",
+        "comment": "Application successfully verified and submitted."
+      }
+    ]
+  },
+  {
+    "id": "APP-2026-003",
+    "jobId": "DRV002",
+    "studentId": "AU2027CSE001",
+    "studentName": "Arjun Kumar",
+    "jobTitle": "Backend Developer",
+    "company": "CloudMatrix Labs",
+    "appliedAt": "2026-09-19T10:34:34.874Z",
+    "preferredLocation": "Chennai",
+    "resumeUrl": "Verified_Resume.pdf",
+    "status": "APPLIED",
+    "eligibilitySnapshot": {
+      "eligible": true,
+      "cgpa": 8.36,
+      "backlogs": 0,
+      "branch": "CSE",
+      "academicYear": "Final Year"
+    },
+    "history": [
+      {
+        "status": "APPLIED",
+        "timestamp": "2026-09-19T10:34:34.874Z",
+        "comment": "Application successfully verified and submitted."
+      }
+    ]
+  },
+  {
+    "id": "APP-2026-001",
+    "jobId": "DRV003",
+    "studentId": "AU2027CSE001",
+    "studentName": "Arjun Kumar",
+    "jobTitle": "Data Analyst",
+    "company": "DataForge Analytics",
+    "appliedAt": "2026-09-18T10:30:00+05:30",
+    "preferredLocation": "Chennai",
+    "status": "APPLIED",
+    "eligibilitySnapshot": {
+      "eligible": true,
+      "cgpa": 8.36,
+      "backlogs": 0,
+      "branch": "CSE",
+      "academicYear": "Final Year"
+    },
+    "history": [
+      {
+        "status": "APPLIED",
+        "timestamp": "2026-09-18T10:30:00+05:30",
+        "comment": "Application submitted by student."
+      }
+    ]
+  }
+]

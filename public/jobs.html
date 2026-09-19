@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Placement Drives | Anna University Placement Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <div id="navbar-container"></div>
+
+  <main class="main-content">
+    <div style="margin-bottom: 2rem;">
+      <div class="hero-tag">Active Drives • Academic Year 2026–27</div>
+      <h1 style="font-size: 2rem; font-weight: 800; color: #fff; margin-bottom: 0.5rem;">
+        Campus Recruitment Drives
+      </h1>
+      <p style="color: var(--text-secondary); max-width: 800px;">
+        Explore open recruitment drives from top enterprise engineering recruiters. Filter by engineering branch, academic year, package, and evaluate deterministic eligibility criteria.
+      </p>
+    </div>
+
+    <!-- Interactive Search & Filter Controls -->
+    <div class="filter-bar">
+      <!-- Search Input -->
+      <div>
+        <label class="form-label" style="font-size: 0.75rem;">Search Drives</label>
+        <input 
+          type="text" 
+          id="search-input" 
+          class="form-control" 
+          placeholder="Company, Role, Skill, or Job ID..."
+          data-testid="search-input"
+        >
+      </div>
+
+      <!-- Branch Filter -->
+      <div>
+        <label class="form-label" style="font-size: 0.75rem;">Branch</label>
+        <select id="branch-select" class="form-control" data-testid="branch-filter">
+          <option value="ALL">All Branches</option>
+          <option value="CSE">CSE</option>
+          <option value="IT">IT</option>
+          <option value="ECE">ECE</option>
+          <option value="EEE">EEE</option>
+          <option value="Manufacturing">Manufacturing</option>
+        </select>
+      </div>
+
+      <!-- Year Filter -->
+      <div>
+        <label class="form-label" style="font-size: 0.75rem;">Academic Year</label>
+        <select id="year-select" class="form-control" data-testid="year-filter">
+          <option value="ALL">All Years</option>
+          <option value="Final Year">Final Year</option>
+          <option value="Pre-Final Year">Pre-Final Year</option>
+        </select>
+      </div>
+
+      <!-- Work Mode Filter -->
+      <div>
+        <label class="form-label" style="font-size: 0.75rem;">Work Mode</label>
+        <select id="workmode-select" class="form-control" data-testid="workmode-filter">
+          <option value="ALL">All Modes</option>
+          <option value="Hybrid">Hybrid</option>
+          <option value="On-site">On-site</option>
+          <option value="Remote">Remote</option>
+        </select>
+      </div>
+
+      <!-- Sort Filter -->
+      <div>
+        <label class="form-label" style="font-size: 0.75rem;">Sort By</label>
+        <select id="sort-select" class="form-control" data-testid="sort-filter">
+          <option value="newest">Newest First</option>
+          <option value="ctc-desc">Highest CTC</option>
+          <option value="deadline-asc">Earliest Deadline</option>
+          <option value="company-asc">Company A-Z</option>
+        </select>
+      </div>
+
+      <!-- Eligibility Toggle -->
+      <div style="display: flex; flex-direction: column; align-items: flex-start; justify-content: center;">
+        <label class="form-label" style="font-size: 0.75rem;">Filter by Eligibility</label>
+        <label style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; cursor: pointer; color: var(--gold-400); font-weight: 600; padding-top: 0.35rem;">
+          <input type="checkbox" id="eligible-only-checkbox" data-testid="eligible-only-checkbox">
+          Eligible for Me Only
+        </label>
+      </div>
+    </div>
+
+    <!-- Active Filter Badges & Count -->
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+      <span style="font-size: 0.9rem; color: var(--text-secondary);">
+        Showing <strong id="jobs-count-text" style="color: #fff;">0</strong> campus drives
+      </span>
+      <button id="reset-filters-btn" class="btn btn-secondary btn-sm" onclick="resetFilters()">Reset Filters</button>
+    </div>
+
+    <!-- Drives Grid -->
+    <div class="jobs-grid" id="jobs-container">
+      <div style="color: var(--text-muted);">Loading campus drives...</div>
+    </div>
+  </main>
+
+  <div id="footer-container"></div>
+
+  <script src="/js/api.js"></script>
+  <script>
+    API.renderNavbar('jobs');
+    API.renderFooter();
+
+    let allLoadedJobs = [];
+    const student = API.getCurrentUser();
+
+    async function loadJobs() {
+      try {
+        allLoadedJobs = await API.getJobs({ studentId: student ? student.id : '' });
+        applyFiltersAndRender();
+        API.logAction('VIEW_JOBS', null, 'SUCCESS', 'Loaded placement drives catalog');
+      } catch (err) {
+        console.error('Error loading drives:', err);
+        document.getElementById('jobs-container').innerHTML = `
+          <div style="color: var(--danger);">Failed to load drives from server.</div>
+        `;
+      }
+    }
+
+    function applyFiltersAndRender() {
+      const search = (document.getElementById('search-input').value || '').trim().toLowerCase();
+      const branch = document.getElementById('branch-select').value;
+      const year = document.getElementById('year-select').value;
+      const workMode = document.getElementById('workmode-select').value;
+      const sortBy = document.getElementById('sort-select').value;
+      const eligibleOnly = document.getElementById('eligible-only-checkbox').checked;
+
+      let filtered = allLoadedJobs.filter(job => {
+        // Search
+        if (search) {
+          const match = 
+            job.id.toLowerCase().includes(search) ||
+            job.company.toLowerCase().includes(search) ||
+            job.role.toLowerCase().includes(search) ||
+            (job.skills || []).some(s => s.toLowerCase().includes(search)) ||
+            (job.description || '').toLowerCase().includes(search);
+          if (!match) return false;
+        }
+
+        // Branch
+        if (branch !== 'ALL') {
+          const hasBranch = (job.branches || []).map(b => b.toUpperCase()).includes(branch.toUpperCase());
+          if (!hasBranch) return false;
+        }
+
+        // Year
+        if (year !== 'ALL') {
+          const hasYear = (job.academicYears || []).map(y => y.toLowerCase()).includes(year.toLowerCase());
+          if (!hasYear) return false;
+        }
+
+        // Work Mode
+        if (workMode !== 'ALL') {
+          if (job.workMode.toLowerCase() !== workMode.toLowerCase()) return false;
+        }
+
+        // Eligible Only
+        if (eligibleOnly) {
+          if (!job.isEligible) return false;
+        }
+
+        return true;
+      });
+
+      // Sorting
+      if (sortBy === 'ctc-desc') {
+        filtered.sort((a, b) => (parseFloat(b.ctc) || 0) - (parseFloat(a.ctc) || 0));
+      } else if (sortBy === 'deadline-asc') {
+        filtered.sort((a, b) => new Date(a.deadline) - new Date(b.deadline));
+      } else if (sortBy === 'company-asc') {
+        filtered.sort((a, b) => a.company.localeCompare(b.company));
+      } else {
+        // Newest
+        filtered.sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0));
+      }
+
+      document.getElementById('jobs-count-text').textContent = filtered.length;
+
+      const container = document.getElementById('jobs-container');
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div style="grid-column: 1 / -1; padding: 3rem 1.5rem; background: var(--bg-card); border-radius: var(--radius-md); text-align: center;">
+            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🔍</div>
+            <h3 style="color: #fff; font-weight: 700; margin-bottom: 0.5rem;">No Matching Drives Found</h3>
+            <p style="color: var(--text-secondary); max-width: 450px; margin: 0 auto 1.5rem;">
+              No recruitment drives matched your current search filters. Try loosening your criteria or resetting filters.
+            </p>
+            <button class="btn btn-secondary btn-sm" onclick="resetFilters()">Clear Filters</button>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = filtered.map(job => renderFullJobCard(job)).join('');
+    }
+
+    function renderFullJobCard(job) {
+      const branchesList = (job.branches || []).map(b => `<span class="branch-pill branch-${b}">${b}</span>`).join(' ');
+      const skillsList = (job.skills || []).slice(0, 4).map(s => `<span style="font-size:0.75rem; color:var(--text-muted); background:rgba(255,255,255,0.05); padding:2px 6px; border-radius:3px;">${s}</span>`).join(' ');
+
+      const isExpired = job.status === 'EXPIRED' || new Date() > new Date(job.deadline);
+
+      return `
+        <div class="job-card" data-testid="job-card-${job.id}">
+          <div>
+            <div class="job-card-top">
+              <div>
+                <span class="job-company">${job.company}</span>
+                <h3 class="job-role">${job.role}</h3>
+              </div>
+              <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 0.35rem;">
+                <span class="job-id-tag">${job.id}</span>
+                ${isExpired ? `
+                  <span class="badge badge-expired">Expired</span>
+                ` : job.status === 'OPEN' ? `
+                  <span class="badge badge-open">Open</span>
+                ` : `
+                  <span class="badge badge-expired">${job.status}</span>
+                `}
+              </div>
+            </div>
+
+            <!-- Branch badges -->
+            <div style="display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.85rem;">
+              ${branchesList}
+              <span class="badge" style="background: rgba(255,255,255,0.05); color: var(--text-secondary); font-size: 0.7rem;">
+                ${(job.academicYears || []).join(', ')}
+              </span>
+            </div>
+
+            <!-- Criteria Box -->
+            <div class="job-criteria-box">
+              <div class="job-criteria-row">
+                <span class="job-criteria-label">CTC Package:</span>
+                <span class="job-criteria-val" style="color: var(--gold-400);">${job.ctc}</span>
+              </div>
+              <div class="job-criteria-row">
+                <span class="job-criteria-label">Min CGPA:</span>
+                <span class="job-criteria-val">${parseFloat(job.minCgpa).toFixed(2)}</span>
+              </div>
+              <div class="job-criteria-row">
+                <span class="job-criteria-label">Max Allowed Backlogs:</span>
+                <span class="job-criteria-val">${job.maxBacklogs}</span>
+              </div>
+              <div class="job-criteria-row">
+                <span class="job-criteria-label">Work Mode & City:</span>
+                <span class="job-criteria-val">${job.workMode} • ${job.location}</span>
+              </div>
+              <div class="job-criteria-row">
+                <span class="job-criteria-label">Deadline:</span>
+                <span class="job-criteria-val" style="font-size: 0.75rem;">${new Date(job.deadline).toLocaleDateString('en-IN')}</span>
+              </div>
+            </div>
+
+            <!-- Skills List -->
+            <div style="display: flex; gap: 0.35rem; flex-wrap: wrap; margin-bottom: 1.25rem;">
+              ${skillsList}
+            </div>
+
+            <!-- Student Eligibility Status Pill -->
+            ${student ? `
+              <div style="margin-bottom: 1.25rem; font-size: 0.78rem;">
+                ${job.alreadyApplied ? `
+                  <div style="color: #60a5fa; background: rgba(59, 130, 246, 0.1); padding: 0.4rem 0.6rem; border-radius: 4px; border: 1px solid rgba(59, 130, 246, 0.3);">
+                    ✓ Application Already Submitted
+                  </div>
+                ` : job.isEligible ? `
+                  <div style="color: #34d399; background: rgba(16, 185, 129, 0.1); padding: 0.4rem 0.6rem; border-radius: 4px; border: 1px solid rgba(16, 185, 129, 0.3);">
+                    ✓ Eligible for your profile (${student.branch} • CGPA ${student.cgpa})
+                  </div>
+                ` : `
+                  <div style="color: #f87171; background: rgba(244, 63, 94, 0.1); padding: 0.4rem 0.6rem; border-radius: 4px; border: 1px solid rgba(244, 63, 94, 0.3);">
+                    ✕ Ineligible: Does not meet criteria
+                  </div>
+                `}
+              </div>
+            ` : ''}
+          </div>
+
+          <!-- Card Actions -->
+          <div class="job-card-actions">
+            <a href="/jobs/${job.id}" class="btn btn-secondary btn-sm" style="flex: 1;" data-testid="view-jd-${job.id}">
+              View JD
+            </a>
+            ${isExpired ? `
+              <button class="btn btn-secondary btn-sm" disabled style="opacity: 0.5;">Deadline Passed</button>
+            ` : job.alreadyApplied ? `
+              <button class="btn btn-secondary btn-sm" disabled style="opacity: 0.7;">Applied</button>
+            ` : job.isEligible ? `
+              <a href="/jobs/${job.id}?action=apply" class="btn btn-primary btn-sm" data-testid="apply-${job.id}">
+                Apply Now
+              </a>
+            ` : `
+              <a href="/jobs/${job.id}" class="btn btn-secondary btn-sm" style="opacity: 0.6;">Check Reason</a>
+            `}
+          </div>
+        </div>
+      `;
+    }
+
+    function resetFilters() {
+      document.getElementById('search-input').value = '';
+      document.getElementById('branch-select').value = 'ALL';
+      document.getElementById('year-select').value = 'ALL';
+      document.getElementById('workmode-select').value = 'ALL';
+      document.getElementById('sort-select').value = 'newest';
+      document.getElementById('eligible-only-checkbox').checked = false;
+      applyFiltersAndRender();
+    }
+
+    // Event listeners
+    document.getElementById('search-input').addEventListener('input', applyFiltersAndRender);
+    document.getElementById('branch-select').addEventListener('change', applyFiltersAndRender);
+    document.getElementById('year-select').addEventListener('change', applyFiltersAndRender);
+    document.getElementById('workmode-select').addEventListener('change', applyFiltersAndRender);
+    document.getElementById('sort-select').addEventListener('change', applyFiltersAndRender);
+    document.getElementById('eligible-only-checkbox').addEventListener('change', applyFiltersAndRender);
+
+    loadJobs();
+  </script>
+</body>
+</html>
